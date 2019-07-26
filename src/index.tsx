@@ -1,23 +1,21 @@
-/**
- * @class ExampleComponent
- */
+import * as React from "react";
 
-import * as React from 'react'
+import styles from "./styles.css";
 
-import styles from './styles.css'
+import * as ICONS from "./icons";
 
-export type Props = { text: string }
+export type Props = { name: string; size: number; color: string };
 
-export default class ExampleComponent extends React.Component<Props> {
-  render() {
-    const {
-      text
-    } = this.props
+export const Icon: React.FC<Props> = ({ name, size, color }) => {
+  const Svg = ICONS[name];
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+  return (
+    <Svg
+      className={styles.Svg}
+      key={name}
+      style={{ width: `${size}px`, height: `${size}px`, fill: color }}
+    />
+  );
+};
+
+export { ICONS };

@@ -1,0 +1,5 @@
+plugins:
+  - removeViewbox: false
+  - removeDimensions
+  - removeAttrs:
+      attrs: "fill"
