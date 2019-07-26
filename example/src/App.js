@@ -2,7 +2,7 @@ import React from "react";
 
 import { Icon, ICONS } from "moda-icons";
 
-const SIZES = [12, 16, 24, 32, 48, 60];
+const SIZES = [12, 16, 24, 32, 48, 60, Infinity];
 
 const Size = ({ size }) => (
   <React.Fragment>
@@ -10,7 +10,9 @@ const Size = ({ size }) => (
 
     <div className="Icons">
       {Object.keys(ICONS)
-        .filter(name => name.includes(size))
+        .filter(name => {
+          return size === Infinity ? !/\d/.test(name) : name.includes(size);
+        })
         .map(name => {
           return (
             <div className="Icon">
