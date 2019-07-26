@@ -1,10 +1,14 @@
 body {
   margin: 3em;
   padding: 3em;
-  font-family: sans-serif;
+  font-family: "Moda Operandi Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-align: center;
   font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 3em;
 }
 
 h3 {
