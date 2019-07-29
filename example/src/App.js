@@ -1,36 +1,54 @@
 import React from "react";
+import styled from "styled-components";
+import { groupBy } from "lodash";
+import * as Icons from "moda-icons";
 
-import { Icon, ICONS } from "moda-icons";
+import { Display } from "./components/Display";
 
-const SIZES = [12, 16, 24, 32, 48, 60, Infinity];
+const icons = groupBy(Icons.ICONS, "size");
 
-const Size = ({ size }) => (
-  <React.Fragment>
-    <h3>size={size}</h3>
+const Set = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
 
-    <div className="Icons">
-      {Object.keys(ICONS)
-        .filter(name => {
-          return size === Infinity ? !/\d/.test(name) : name.includes(size);
-        })
-        .map(name => {
-          return (
-            <div className="Icon">
-              <Icon key={name} name={name} size={size} color="#ee0700" />
-              <h5>{name}</h5>
-            </div>
-          );
-        })}
-    </div>
-  </React.Fragment>
+const SubHeader = styled.h3`
+  border-bottom: 1px solid;
+  padding-bottom: 1em;
+  font-size: 1rem;
+`;
+
+const Title = styled.h1`
+  margin-bottom: 3em;
+`;
+
+const Size = ({ size, iconSet }) => (
+  <>
+    <SubHeader>size={size}</SubHeader>
+
+    <Set>
+      {iconSet.map(({ componentName, fileName }) => {
+        const Icon = Icons[componentName];
+        return (
+          <Display
+            key={componentName}
+            componentName={componentName}
+            fileName={fileName}
+          >
+            <Icon />
+          </Display>
+        );
+      })}
+    </Set>
+  </>
 );
 
 export default () => (
-  <React.Fragment>
-    <h1>moda-icons</h1>
+  <>
+    <Title>moda-icons</Title>
 
-    {SIZES.map(size => (
-      <Size key={size} size={size} />
+    {Object.entries(icons).map(([size, iconSet]) => (
+      <Size key={size} size={size} iconSet={iconSet} />
     ))}
-  </React.Fragment>
+  </>
 );

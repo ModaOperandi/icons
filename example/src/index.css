@@ -6,28 +6,3 @@ body {
   text-align: center;
   font-size: 16px;
 }
-
-h1 {
-  margin-bottom: 3em;
-}
-
-h3 {
-  border-bottom: 1px solid;
-  padding-bottom: 1em;
-  font-size: 1rem;
-}
-
-.Icons {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.Icon {
-  display: flex;
-  width: 12em;
-  height: 12em;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.75rem;
-}

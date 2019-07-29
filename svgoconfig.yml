@@ -1,5 +1,6 @@
 plugins:
-  - removeViewbox: false
-  - removeDimensions
+  - removeDimensions: true
+  - removeViewbox: true
+  - removeXMLNS: true
   - removeAttrs:
       attrs: "fill"
