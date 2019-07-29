@@ -1,6 +1,3 @@
-// TODO:
-// - Remove viewbox for Infinity sized icons
-
 "use strict";
 
 const path = require("path");
