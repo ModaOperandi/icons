@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,UAAW,CACX,WAAY,CACZ,yCAA6C,CAC7C,kCAAmC,CACnC,iBAAkB,CAClB,cACF","file":"main.7f8aacfb.chunk.css","sourcesContent":["body {\n  margin: 3em;\n  padding: 3em;\n  font-family: \"Moda Operandi Sans\", sans-serif;\n  -webkit-font-smoothing: antialiased;\n  text-align: center;\n  font-size: 16px;\n}\n"]}
