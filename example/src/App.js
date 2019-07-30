@@ -35,7 +35,7 @@ const Size = ({ size, iconSet }) => (
             componentName={componentName}
             fileName={fileName}
           >
-            <Icon />
+            <Icon color="red" />
           </Display>
         );
       })}

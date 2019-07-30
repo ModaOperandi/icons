@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><g transform="translate(3 3)" fill="none"><circle stroke="#1E1E1E" cx="21" cy="21" r="20.5"/><path d="M21.5 20.5H31v1h-9.5V31h-1v-9.5H11v-1h9.5V11h1v9.5z" fill="#1E1E1E"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons/Zoom/48</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Zoom/48" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 3.000000)" fill="#1E1E1E" fill-rule="nonzero">
+            <path d="M21,42 C32.5979797,42 42,32.5979797 42,21 C42,9.40202025 32.5979797,0 21,0 C9.40202025,0 0,9.40202025 0,21 C0,32.5979797 9.40202025,42 21,42 Z M21,41 C9.954305,41 1,32.045695 1,21 C1,9.954305 9.954305,1 21,1 C32.045695,1 41,9.954305 41,21 C41,32.045695 32.045695,41 21,41 Z" id="Oval"></path>
+            <path d="M21.5,20.5 L31,20.5 L31,21.5 L21.5,21.5 L21.5,31 L20.5,31 L20.5,21.5 L11,21.5 L11,20.5 L20.5,20.5 L20.5,11 L21.5,11 L21.5,20.5 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

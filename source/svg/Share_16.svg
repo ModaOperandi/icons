@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><g fill="none"><path d="M3.375 14.438v.187h.188H3l.375.375v-.563zm9.063.187h.187v-.188V15l.375-.375h-.563zm.187-3V9l-.375.375H13L12.625 9v2.625zm-9.25 0V9L3 9.375h.75L3.375 9v2.625z" stroke="#000" stroke-width=".75"/><path fill="#000" d="M8.379 2.375V10.5H7.62V2.375L3.505 6.45 3 5.95 8 1l5 4.95-.505.5z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons/Share/16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Share/16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(3.000000, 1.000000)" fill-rule="nonzero">
+            <path d="M0.375,13.4375 L0.375,13.625 L0.5625,13.625 L5.68434189e-14,13.625 L0.375,14 L0.375,13.4375 Z M9.4375,13.625 L9.625,13.625 L9.625,13.4375 L9.625,14 L10,13.625 L9.4375,13.625 Z M9.625,10.625 L9.625,8 L9.25,8.375 L10,8.375 L9.625,8 L9.625,10.625 Z M0.375,10.625 L0.375,8 L5.68434189e-14,8.375 L0.75,8.375 L0.375,8 L0.375,10.625 Z" id="Combined-Shape" stroke="#000000" stroke-width="0.75"></path>
+            <polygon id="Path" fill="#000000" points="5.3788072 1.375 5.3788072 9.5 4.6211928 9.5 4.6211928 1.375 0.505076272 5.44974747 0 4.94974747 5 0 10 4.94974747 9.49492373 5.44974747"></polygon>
+        </g>
+    </g>
+</svg>
