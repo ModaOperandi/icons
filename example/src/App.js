@@ -1,25 +1,43 @@
-import React from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import styled from "styled-components";
-import { groupBy } from "lodash";
+import { groupBy, filter } from "lodash";
 import * as Icons from "moda-icons";
 
 import { Display } from "./components/Display";
 
-const icons = groupBy(Icons.ICONS, "size");
+const Header = styled.header`
+  margin-bottom: 3em;
+`;
+
+const Title = styled.h1`
+  text-align: center;
+`;
+
+const Filter = styled.input`
+  font-size: 1rem;
+  padding: 0.25em 1em;
+  border-radius: 1em;
+  border: 1px solid #bebebe;
+  display: block;
+  margin: 0 auto;
+
+  &:focus {
+    outline: none;
+    border-color: #969696;
+  }
+`;
 
 const Set = styled.div`
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
 `;
 
 const SubHeader = styled.h3`
   border-bottom: 1px solid;
   padding-bottom: 1em;
   font-size: 1rem;
-`;
-
-const Title = styled.h1`
-  margin-bottom: 3em;
+  padding-left: 3em;
 `;
 
 const Size = ({ size, iconSet }) => (
@@ -35,7 +53,7 @@ const Size = ({ size, iconSet }) => (
             componentName={componentName}
             fileName={fileName}
           >
-            <Icon color="red" />
+            <Icon />
           </Display>
         );
       })}
@@ -43,12 +61,38 @@ const Size = ({ size, iconSet }) => (
   </>
 );
 
-export default () => (
-  <>
-    <Title>moda-icons</Title>
+export default () => {
+  const [availableIcons, setAvailableIcons] = useState(Icons.ICONS);
+  const [groupedIcons, setGroupedIcons] = useState(
+    groupBy(availableIcons, "size")
+  );
 
-    {Object.entries(icons).map(([size, iconSet]) => (
-      <Size key={size} size={size} iconSet={iconSet} />
-    ))}
-  </>
-);
+  const handleChange = useCallback(({ currentTarget: { value } }) => {
+    if (value === "") {
+      // Reset
+      setAvailableIcons(Icons.ICONS);
+      return;
+    }
+
+    setAvailableIcons(() =>
+      Icons.ICONS.filter(({ fileName }) => fileName.includes(value))
+    );
+  }, []);
+
+  useEffect(() => {
+    setGroupedIcons(groupBy(availableIcons, "size"));
+  }, [availableIcons]);
+
+  return (
+    <>
+      <Header>
+        <Title>moda-icons</Title>
+        <Filter placeholder="Find an icon" onChange={handleChange} />
+      </Header>
+
+      {Object.entries(groupedIcons).map(([size, iconSet]) => (
+        <Size key={size} size={size} iconSet={iconSet} />
+      ))}
+    </>
+  );
+};

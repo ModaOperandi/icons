@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 import useCopyToClipboard from "react-use/lib/useCopyToClipboard";
 
-const MONEY_GOOD_HEX = "#046c00";
+const MONEY_GOOD_COLOR = "#046c00";
 
 const Container = styled.div`
   position: relative;
@@ -16,8 +16,14 @@ const Container = styled.div`
   cursor: pointer;
 
   &:hover {
-    color: ${MONEY_GOOD_HEX};
+    color: ${MONEY_GOOD_COLOR};
   }
+
+  ${props =>
+    props.mode === MODE.COPIED &&
+    `
+    color: ${MONEY_GOOD_COLOR};
+  `}
 `;
 
 const Status = styled.div`
@@ -25,7 +31,7 @@ const Status = styled.div`
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  background-color: ${MONEY_GOOD_HEX};
+  background-color: ${MONEY_GOOD_COLOR};
   padding: 0.25em 0.5em;
   border-radius: 0.25em;
   color: white;
@@ -37,7 +43,10 @@ const MODE = {
 };
 
 export const Display = ({ children, componentName, fileName }) => {
-  const importStatement = `import ${componentName} from 'moda-icons/${fileName}';`;
+  const importStatement = `import ${componentName.replace(
+    /[0-9]/g,
+    ""
+  )} from 'moda-icons/${fileName}';`;
   const [state, copyToClipboard] = useCopyToClipboard();
   const [mode, setMode] = useState(MODE.RESTING);
 
@@ -48,7 +57,7 @@ export const Display = ({ children, componentName, fileName }) => {
   }, [copyToClipboard, importStatement, setMode]);
 
   return (
-    <Container onClick={handleClick}>
+    <Container onClick={handleClick} mode={mode}>
       {children}
 
       <h5>{fileName}</h5>
