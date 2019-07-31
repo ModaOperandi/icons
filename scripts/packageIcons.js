@@ -6,7 +6,7 @@ const { transform } = require("@babel/core");
 
 const getTransformedSourceCode = originalSource =>
   transform(originalSource, {
-    presets: ["@babel/preset-env", "@babel/preset-react"]
+    presets: ["@babel/preset-react"]
   }).code;
 
 const getSVGContent = source =>
