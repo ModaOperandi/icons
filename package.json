@@ -1,6 +1,6 @@
 {
   "name": "moda-icons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Site-wide icon library for modaoperandi.com",
   "author": "dzucconi",
   "license": "MIT",
@@ -9,7 +9,7 @@
   "browserslist": "> 0.25%, not dead",
   "scripts": {
     "build": "NODE_ENV=production yarn optimize && node scripts/build",
-    "release": "NODE_ENV=production node scripts/release",
+    "release": "yarn build && cd dist && yarn publish",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build",
     "optimize": "rm -rf src/svg && svgo source/svg -o src/svg --config=svgoconfig.yml"
