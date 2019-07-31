@@ -48,6 +48,12 @@ Alternatively this can be set using a prop:
 <ShoppingBagIcon color="#f00" />
 ```
 
+## Adding an icon
+
+Simply import your SVG to [`source/svg`](/source/svg) using the naming convention of snake-cased name followed by the desired native size: `Arrow_Down_12.svg`.
+
+Running `yarn build` will automatically optimize the svg and create a corresponding React component for it. You can then increment the version in [`package.json`](package.json) and publish to NPM by running `yarn release`.
+
 ## Documentation
 
 A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://modaoperandi.github.io/moda-icons/).
