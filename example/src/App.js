@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useEffect } from "react";
 import styled from "styled-components";
-import { groupBy, filter } from "lodash";
+import { groupBy } from "lodash";
 import * as Icons from "moda-icons";
 
 import { Display } from "./components/Display";
