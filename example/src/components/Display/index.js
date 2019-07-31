@@ -46,7 +46,7 @@ export const Display = ({ children, componentName, fileName }) => {
   const importStatement = `import ${componentName.replace(
     /[0-9]/g,
     ""
-  )} from 'moda-icons/${fileName}';`;
+  )}Icon from 'moda-icons/${fileName}';`;
   const [state, copyToClipboard] = useCopyToClipboard();
   const [mode, setMode] = useState(MODE.RESTING);
 
