@@ -72,9 +72,3 @@ Start the development server:
 ```bash
 yarn start # => http://localhost:3000/
 ```
-
-### Publishing updated documentation
-
-```bash
-yarn deploy # => https://modaoperandi.github.io/moda-icons/
-```
