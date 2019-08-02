@@ -1,9 +1,9 @@
 version: 2
 jobs:
-  branches:
-    only:
-      - master
   build:
+    branches:
+      only:
+        - master
     docker:
       - image: "circleci/node:latest"
     steps:
