@@ -34,7 +34,8 @@
     "svgo": "^1.3.0"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "restricted",
+    "pkgRoot": "dist"
   },
   "config": {
     "commitizen": {
