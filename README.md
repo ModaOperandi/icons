@@ -1,5 +1,7 @@
 # moda-icons
 
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/moda-icons/latest.svg)](https://www.npmjs.com/package/moda-icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/moda-icons/master?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/moda-icons)
+
 ## Meta
 
 - **State**: production
@@ -52,7 +54,7 @@ Alternatively this can be set using a prop:
 
 Simply import your SVG to [`source/svg`](/source/svg) using the naming convention of snake-cased name followed by the desired native size: `Arrow_Down_12.svg`.
 
-Running `yarn build` will automatically optimize the svg and create a corresponding React component for it. You can then increment the version in [`package.json`](package.json) and publish to NPM by running `yarn release`.
+This library is built using [semantic-release](https://github.com/semantic-release/semantic-release). `git add .` your changes and run `git cz` to kick off the [commitizen workflow](https://github.com/commitizen/cz-cli). Push to a feature branch and let a bot version and publish the package for you.
 
 ## Documentation
 
@@ -72,3 +74,5 @@ Start the development server:
 ```bash
 yarn start # => http://localhost:3000/
 ```
+
+Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/moda-icons#master`.
