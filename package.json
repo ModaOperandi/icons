@@ -11,7 +11,7 @@
     "build": "NODE_ENV=production yarn optimize && node scripts/build",
     "release": "yarn build && cd dist && yarn publish",
     "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/moda-icons.git -d example/build --silent",
+    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/moda-icons.git -d example/build",
     "optimize": "rm -rf src/svg && svgo source/svg -o src/svg --config=svgoconfig.yml",
     "semantic-release": "semantic-release"
   },
