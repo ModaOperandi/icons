@@ -12,7 +12,9 @@
     "release": "yarn build && cd dist && yarn publish",
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/moda-icons.git -d example/build",
+    "deploy:local": "gh-pages -d example/build",
     "optimize": "rm -rf src/svg && svgo source/svg -o src/svg --config=svgoconfig.yml",
+    "start": "cd example && yarn start",
     "semantic-release": "semantic-release"
   },
   "peerDependencies": {
