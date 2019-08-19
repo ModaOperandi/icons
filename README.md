@@ -1,4 +1,4 @@
-# moda-icons
+# @moda/icons
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/moda-icons/latest.svg)](https://www.npmjs.com/package/moda-icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/moda-icons/master?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/moda-icons)
 
@@ -10,7 +10,7 @@
 ## Getting started
 
 ```bash
-yarn add moda-icons
+yarn add @moda/icons
 ```
 
 Visit: [modaoperandi.github.io/moda-icons](https://modaoperandi.github.io/moda-icons/) and click the desired icon to copy its `import` statement.
