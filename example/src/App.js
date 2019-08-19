@@ -1,7 +1,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import styled from "styled-components";
 import { groupBy } from "lodash";
-import * as Icons from "moda-icons";
+import * as Icons from "@moda/icons";
 
 import { Display } from "./components/Display";
 
@@ -86,7 +86,7 @@ export default () => {
   return (
     <>
       <Header>
-        <Title>moda-icons</Title>
+        <Title>@moda/icons</Title>
         <Filter placeholder="Find an icon" onChange={handleChange} />
       </Header>
 

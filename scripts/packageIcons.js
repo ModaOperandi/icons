@@ -55,7 +55,7 @@ const getReactSource = ({ componentName, svgPaths, size }) => {
 };
 
 const getPackageJsonSource = ({ version }) => `{
-  "name": "moda-icons",
+  "name": "@moda/icons",
   "version": "${version}",
   "peerDependencies": {
     "react": ">=16.2.0"
