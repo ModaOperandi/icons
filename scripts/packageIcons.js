@@ -59,6 +59,10 @@ const getPackageJsonSource = ({ version }) => `{
   "version": "${version}",
   "peerDependencies": {
     "react": ">=16.2.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   }
 }`;
 
