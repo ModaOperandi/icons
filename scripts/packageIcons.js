@@ -2,12 +2,6 @@
 
 const path = require("path");
 const { upperFirst, camelCase, kebabCase, last } = require("lodash");
-const { transform } = require("@babel/core");
-
-const getTransformedSourceCode = originalSource =>
-  transform(originalSource, {
-    presets: ["@babel/preset-react"]
-  }).code;
 
 const getSVGContent = source =>
   // Get the contents of the optimized SVG
@@ -31,8 +25,8 @@ const DEFAULT_SVG_STYLES = {
 };
 
 const getReactSource = ({ componentName, svgPaths, size }) => {
-  return getTransformedSourceCode(`
-    import React from 'react';
+  return `
+    import * as React from 'react';
 
     const ${componentName} = ({ color = 'currentcolor', height = '${size}px', width = '${size}px', ...rest }) => {
       return (
@@ -51,7 +45,7 @@ const getReactSource = ({ componentName, svgPaths, size }) => {
     ${componentName}.displayName = '${componentName}';
 
     export default ${componentName};
-  `);
+  `;
 };
 
 const getPackageJsonSource = ({ version }) => `{
@@ -60,6 +54,8 @@ const getPackageJsonSource = ({ version }) => `{
   "peerDependencies": {
     "react": ">=16.2.0"
   },
+  "main": "index.js",
+  "types": "index.d.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
@@ -67,7 +63,7 @@ const getPackageJsonSource = ({ version }) => `{
 }`;
 
 const getIndexSource = ({ iconFiles }) =>
-  getTransformedSourceCode(`
+  `
     export const ICONS = ${JSON.stringify(
       iconFiles.map(({ fileName, componentName, size }) => ({
         fileName,
@@ -78,11 +74,11 @@ const getIndexSource = ({ iconFiles }) =>
 
     ${iconFiles
       .map(
-        ({ filepath, componentName }) =>
-          `export { default as ${componentName} } from './${filepath}';`
+        ({ fileName, componentName }) =>
+          `export { default as ${componentName} } from './${fileName}';`
       )
       .join("\n")}
-  `);
+  `;
 
 const packageIcons = ({ svgs, version }) => {
   const iconFiles = svgs.map(svg => {
@@ -99,7 +95,7 @@ const packageIcons = ({ svgs, version }) => {
     const fileName = kebabCase(componentName);
 
     return {
-      filepath: `${fileName}.js`,
+      filepath: `${fileName}.tsx`,
       source,
       size,
       componentName,
@@ -113,7 +109,7 @@ const packageIcons = ({ svgs, version }) => {
       source: getPackageJsonSource({ version })
     },
     {
-      filepath: "index.js",
+      filepath: "index.ts",
       source: getIndexSource({ iconFiles })
     },
     ...iconFiles
