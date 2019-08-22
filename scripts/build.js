@@ -6,8 +6,8 @@ const path = require("path");
 const packageIcons = require("./packageIcons");
 const { version } = require("../package.json");
 
-const filepaths = glob.sync("src/svg/*.svg");
-const BUILD_PATH = path.join(__dirname, "..", "dist");
+const filepaths = glob.sync("build/svg/*.svg");
+const BUILD_PATH = path.join(__dirname, "..", "build", "src");
 
 del.sync(BUILD_PATH);
 
