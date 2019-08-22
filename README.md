@@ -16,7 +16,7 @@ yarn add @moda/icons
 Visit: [modaoperandi.github.io/moda-icons](https://modaoperandi.github.io/moda-icons/) and click the desired icon to copy its `import` statement.
 
 ```javascript
-import ShoppingBagIcon from "moda-icons/shopping-bag-24";
+import ShoppingBagIcon from "@moda/icons/shopping-bag-24";
 
 // Use it as a normal React component
 
