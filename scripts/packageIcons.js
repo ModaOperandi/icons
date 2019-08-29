@@ -9,9 +9,7 @@ const getSVGContent = source =>
   source.slice(source.indexOf(">") + 1).slice(0, -6);
 
 const DEFAULT_CONTAINER_STYLES = {
-  display: "inline-block",
-  position: "relative",
-  verticalAlign: "bottom"
+  position: "relative"
 };
 
 const DEFAULT_SVG_STYLES = {
