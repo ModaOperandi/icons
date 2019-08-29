@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3cc79bdad533c812b361778480b958bb",
+    "revision": "35e3dbef50960459d09b6e6ace9bf610",
     "url": "/moda-icons/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/moda-icons/static/css/main.28739b81.chunk.css"
   },
   {
-    "revision": "26fbc3b6ef46acb359da",
-    "url": "/moda-icons/static/js/2.b94baee6.chunk.js"
+    "revision": "1ba56118a564c3f81879",
+    "url": "/moda-icons/static/js/2.89cbb031.chunk.js"
   },
   {
     "revision": "216c7b78938c790a48f1",
