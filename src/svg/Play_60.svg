@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
     <title>Icons/Play/Black 60</title>
     <desc>Created with Sketch.</desc>
     <g id="Icons/Play/Black-60" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g fill="#000000" fill-rule="nonzero">
             <path d="M30,0 C46.5682896,0 60,13.4316094 60,29.9997743 C60,46.5683906 46.5682896,60 30,60 C13.4312589,60 0,46.5683906 0,29.9997743 C0,13.4316094 13.4312589,0 30,0 Z M30,1 C13.9837003,1 1,13.9837375 1,29.9997743 C1,46.016195 13.9836328,59 30,59 C46.016074,59 59,46.0160367 59,29.9997743 C59,13.9838958 46.0160065,1 30,1 Z" id="Stroke-1"></path>
-            <path d="M24,19 L24,40 L42,29.5 L24,19 Z M40.0153651,29.5 L25,38.258963 L25,20.741037 L40.0153651,29.5 Z" id="Stroke-3"></path>
+            <path d="M24,20 L24,41 L42,30.5 L24,20 Z M40.0153651,30.5 L25,39.258963 L25,21.741037 L40.0153651,30.5 Z" id="Stroke-3"></path>
         </g>
     </g>
 </svg>
