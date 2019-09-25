@@ -22,18 +22,18 @@ const DEFAULT_SVG_STYLES = {
   height: "100%"
 };
 
-const getReactSource = ({ componentName, svgPaths, size }) => {
+const getReactSource = ({ componentName, svgPaths, width, height }) => {
   return `
     import * as React from 'react';
 
-    const ${componentName} = ({ color = 'currentcolor', height = '${size}px', width = '${size}px', ...rest }) => {
+    const ${componentName} = ({ color = 'currentcolor', height = '${height}px', width = '${width}px', ...rest }) => {
       return (
         <div style={{ ...${JSON.stringify(
           DEFAULT_CONTAINER_STYLES
         )}, height, width }} { ...rest }>
           <svg style={{ ...${JSON.stringify(
             DEFAULT_SVG_STYLES
-          )}, fill: color }} viewBox="0 0 ${size} ${size}">
+          )}, fill: color }} viewBox="0 0 ${width} ${height}">
             ${svgPaths}
           </svg>
         </div>
@@ -63,10 +63,12 @@ const getPackageJsonSource = ({ version }) => `{
 const getIndexSource = ({ iconFiles }) =>
   `
     export const ICONS = ${JSON.stringify(
-      iconFiles.map(({ fileName, componentName, size }) => ({
+      iconFiles.map(({ fileName, componentName, size, width, height }) => ({
         fileName,
         componentName,
-        size
+        size,
+        width,
+        height
       }))
     )};
 
@@ -81,21 +83,32 @@ const getIndexSource = ({ iconFiles }) =>
 const packageIcons = ({ svgs, version }) => {
   const iconFiles = svgs.map(svg => {
     const name = path.basename(svg.path).replace(".svg", "");
-    const size = parseInt(last(name.split("_")), 10);
+    const size = last(name.split("_"));
+    const sizes = size.split("x");
 
-    if (!(size > 1)) {
-      throw new Error(`${name} size is invalid`);
+    let width, height;
+
+    if (sizes.length === 2) {
+      [width, height] = sizes.map(n => parseInt(n, 10));
+    } else {
+      width = height = parseInt(sizes[0], 10);
+    }
+
+    if (!(width > 1 && height > 1)) {
+      throw new Error(`${name} width or height is invalid`);
     }
 
     const componentName = `${upperFirst(camelCase(name))}`;
     const svgPaths = getSVGContent(svg.source);
-    const source = getReactSource({ componentName, svgPaths, size });
+    const source = getReactSource({ componentName, svgPaths, width, height });
     const fileName = kebabCase(componentName);
 
     return {
       filepath: `${fileName}.tsx`,
       source,
       size,
+      width,
+      height,
       componentName,
       fileName
     };
