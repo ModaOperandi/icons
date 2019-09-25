@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/moda-icons/precache-manifest.0aea23fc0a133641027c9f60b9e56f0a.js"
+  "/moda-icons/precache-manifest.111bb32d040740030a5126211f8fc4f7.js"
 );
 
 self.addEventListener('message', (event) => {
