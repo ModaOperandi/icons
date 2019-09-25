@@ -30,7 +30,7 @@ const Filter = styled.input`
 const Set = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  margin: 1em auto 5em auto;
 `;
 
 const SubHeader = styled.h3`
