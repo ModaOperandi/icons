@@ -1,6 +1,6 @@
 # @moda/icons
 
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/@moda/icons/latest.svg)](https://www.npmjs.com/package/@moda/icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/moda-icons/master?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/icons)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/@moda/icons/latest.svg)](https://www.npmjs.com/package/@moda/icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/icons/master?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/icons)
 
 ## Meta
 
@@ -13,7 +13,7 @@
 yarn add @moda/icons
 ```
 
-Visit: [modaoperandi.github.io/moda-icons](https://modaoperandi.github.io/moda-icons/) and click the desired icon to copy its `import` statement.
+Visit: [modaoperandi.github.io/icons](https://modaoperandi.github.io/icons/) and click the desired icon to copy its `import` statement.
 
 ```javascript
 import ShoppingBagIcon from "@moda/icons/shopping-bag-24";
@@ -27,7 +27,7 @@ const Foo = () => (
 );
 ```
 
-By default all icons are sized according to their native dimensions. So the example above: `shopping-bag-24`, would be 24×24px by default. This can be overriden by passing in width and height props:
+By default all icons are sized according to their native dimensions. So the example above: `shopping-bag-24`, would be 24×24px by default. This can be overridden by passing in width and height props:
 
 ```javascript
 <ShoppingBagIcon width="2em" height="2em" />
@@ -58,7 +58,7 @@ This library is built using [semantic-release](https://github.com/semantic-relea
 
 ## Documentation
 
-A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://modaoperandi.github.io/moda-icons/).
+A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://modaoperandi.github.io/icons/).
 
 ### Editing documentation
 
@@ -75,4 +75,4 @@ Start the development server:
 yarn start # => http://localhost:3000/
 ```
 
-Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/moda-icons#master`.
+Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/icons#master`.

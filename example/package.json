@@ -1,6 +1,6 @@
 {
-  "name": "moda-icons-example",
-  "homepage": "https://modaoperandi.github.io/moda-icons",
+  "name": "@moda/icons-example",
+  "homepage": "https://modaoperandi.github.io/icons",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
