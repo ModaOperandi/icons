@@ -54,7 +54,12 @@ Alternatively this can be set using a prop:
 
 Simply import your SVG to [`src/svg`](/src/svg) using the naming convention of snake-cased name followed by the desired native size: `Arrow_Down_12.svg`.
 
-This library is built using [semantic-release](https://github.com/semantic-release/semantic-release). `git add .` your changes and run `git cz` to kick off the [commitizen workflow](https://github.com/commitizen/cz-cli). Push to a feature branch and let a bot version and publish the package for you.
+#### Making Commits
+
+We are using [semantic release](https://github.com/semantic-release/semantic-release) for this repo and [commitizen](https://github.com/commitizen/cz-cli) to help with formatting commits.
+
+- Install the commitizen CLI with `yarn global add commitizen`
+- To run through the CLI: stage your files to commit and run `git cz`.
 
 ## Documentation
 
