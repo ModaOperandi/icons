@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icons/Shopping Bag/20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Shopping-Bag/20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,18 L2,8 L7,8 L7,5 C7,3.34314575 8.34314575,2 10,2 C11.6568542,2 13,3.34314575 13,5 L13,8 L18,8 L18,18 L13,18 L7,18 L2,18 Z M7,9 L3,9 L3,17 L7,17 L7,9 Z M12,9 L8,9 L8,17 L12,17 L12,9 Z M17,9 L13,9 L13,17 L17,17 L17,9 Z M10,3 C8.8954305,3 8,3.8954305 8,5 L8,8 L12,8 L12,5 C12,3.8954305 11.1045695,3 10,3 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        <g id="discount" transform="translate(14.000000, 5.000000)" fill="#C44CB0" stroke="#FFFFFF">
+            <g id="Group">
+                <circle id="Oval" cx="3" cy="3" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
