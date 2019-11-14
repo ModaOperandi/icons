@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="24px" viewBox="0 0 28 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons/Shopping-Bag/16" transform="translate(-1.000000, -1.000000)">
+            <g id="Group-2" transform="translate(1.000000, 1.000000)">
+                <g id="Icons/Shopping-Bag/16" fill="#000000" fill-rule="nonzero">
+                    <path d="M0,24 L0,8.57142857 L6.857,8.571 L6.85714286,4.8 C6.85714286,2.1490332 9.15967843,0 12,0 C14.8403216,0 17.1428571,2.1490332 17.1428571,4.8 L17.142,8.571 L24,8.57142857 L24,24 L17.1428571,24 L6.85714286,24 L0,24 Z M6.857,9.758 L1.2,9.75824176 L1.2,22.8131868 L6.857,22.813 L6.857,9.758 Z M22.8,9.75824176 L17.142,9.758 L17.142,22.813 L22.8,22.8131868 L22.8,9.75824176 Z M15.857,9.758 L8.142,9.758 L8.14285714,22.8 L15.8571429,22.8 L15.857,9.758 Z M12,1.2 C9.86975882,1.2 8.14285714,2.8117749 8.14285714,4.8 L8.142,8.571 L15.857,8.571 L15.8571429,4.8 C15.8571429,2.8117749 14.1302412,1.2 12,1.2 Z" id="Combined-Shape-Copy"></path>
+                </g>
+                <g id="discount" transform="translate(18.000000, 3.000000)" fill="#C44CB0" stroke="#FFFFFF">
+                    <g id="Group">
+                        <circle id="Oval" cx="5" cy="5" r="4.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
