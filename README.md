@@ -70,6 +70,7 @@ A full listing of available icons, grouped by size, with a simple filtering inte
 Ensure the library is reloaded:
 
 ```bash
+yarn build
 cd example
 yarn refresh
 ```
