@@ -8,16 +8,16 @@
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
     "clean": "rm -rf dist && rm -rf build",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
-    "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
-    "release": "yarn build && cd dist && yarn publish",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/icons.git -d example/build",
     "deploy:local": "yarn predeploy && gh-pages -d example/build",
+    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/icons.git -d example/build",
     "optimize": "rm -rf build/svg && svgo src/svg -o build/svg --config=svgoconfig.yml",
-    "start": "cd example && yarn start",
-    "semantic-release": "semantic-release"
+    "predeploy": "cd example && yarn install && yarn run build",
+    "release": "yarn build && cd dist && yarn publish",
+    "semantic-release": "semantic-release",
+    "start": "cd example && yarn start"
   },
   "peerDependencies": {
     "react": ">=16.2.0"
