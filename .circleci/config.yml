@@ -23,6 +23,3 @@ jobs:
       - run:
           name: release
           command: yarn run semantic-release || true
-      - run:
-          name: docs
-          command: yarn deploy
