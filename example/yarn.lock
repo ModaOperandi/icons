@@ -1139,8 +1139,8 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@moda/icons@file:.yalc/@moda/icons":
-  version "0.0.0-development-fc1e744a"
+"@moda/icons@file:../dist":
+  version "0.0.0-development"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
