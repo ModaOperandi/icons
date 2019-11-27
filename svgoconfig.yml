@@ -3,4 +3,4 @@ plugins:
   - removeViewbox: true
   - removeXMLNS: true
   - removeAttrs:
-      attrs: "fill"
+      attrs: "(fill|fill-rule)"
