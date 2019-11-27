@@ -65,20 +65,14 @@ We are using [semantic release](https://github.com/semantic-release/semantic-rel
 
 A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://modaoperandi.github.io/icons/).
 
-### Editing documentation
-
-Ensure the library is reloaded:
+### Previewing documentation
 
 ```bash
-yarn build
-cd example
-yarn refresh
+yarn local:preview
+# ...
+# => http://localhost:3000/
 ```
 
-Start the development server:
-
-```bash
-yarn start # => http://localhost:3000/
-```
+### Publishing documentation
 
 Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/icons#master`.

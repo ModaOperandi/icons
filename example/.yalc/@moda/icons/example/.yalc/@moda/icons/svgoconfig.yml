@@ -1,0 +1,6 @@
+plugins:
+  - removeDimensions: true
+  - removeViewbox: true
+  - removeXMLNS: true
+  - removeAttrs:
+      attrs: "(fill|fill-rule)"
