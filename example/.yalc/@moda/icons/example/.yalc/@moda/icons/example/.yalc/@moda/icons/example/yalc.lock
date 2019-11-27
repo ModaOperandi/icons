@@ -1,0 +1,10 @@
+{
+  "version": "v1",
+  "packages": {
+    "@moda/icons": {
+      "signature": "9a5aa7f687fa75ebbcf99dad513a39cf",
+      "file": true,
+      "replaced": "file:../dist"
+    }
+  }
+}

@@ -8,16 +8,20 @@
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
     "clean": "rm -rf dist && rm -rf build",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
-    "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
-    "release": "yarn build && cd dist && yarn publish",
-    "predeploy": "cd example && yarn install && yarn run build",
-    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/icons.git -d example/build",
     "deploy:local": "yarn predeploy && gh-pages -d example/build",
+    "deploy": "gh-pages --repo https://$GH_TOKEN@github.com/ModaOperandi/icons.git -d example/build",
+    "local:link": "cd example && yalc add @moda/icons",
+    "local:preview": "yarn local:refresh && yarn start",
+    "local:publish": "yarn build && yalc publish",
+    "local:refresh": "yarn local:publish && yarn local:link",
     "optimize": "rm -rf build/svg && svgo src/svg -o build/svg --config=svgoconfig.yml",
-    "start": "cd example && yarn start",
-    "semantic-release": "semantic-release"
+    "predeploy": "cd example && yalc add @moda/icons && yarn install && yarn run build",
+    "release": "yarn build && cd dist && yarn publish",
+    "semantic-release": "semantic-release",
+    "start": "cd example && yarn start"
   },
   "peerDependencies": {
     "react": ">=16.2.0"
@@ -37,7 +41,8 @@
     "react-dom": "^16.12.0",
     "semantic-release": "^15.13.31",
     "svgo": "^1.3.2",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.2",
+    "yalc": "^1.0.0-pre.34"
   },
   "release": {
     "pkgRoot": "dist"
