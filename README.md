@@ -13,7 +13,7 @@
 yarn add @moda/icons
 ```
 
-Visit: [modaoperandi.github.io/icons](https://modaoperandi.github.io/icons/) and click the desired icon to copy its `import` statement.
+Visit: [https://moda-icons.netlify.com](https://moda-icons.netlify.com/) and click the desired icon to copy its `import` statement.
 
 ```javascript
 import ShoppingBagIcon from "@moda/icons/shopping-bag-24";
@@ -63,7 +63,7 @@ We are using [semantic release](https://github.com/semantic-release/semantic-rel
 
 ## Documentation
 
-A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://modaoperandi.github.io/icons/).
+A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://moda-icons.netlify.com/).
 
 ### Previewing documentation
 
@@ -71,6 +71,12 @@ A full listing of available icons, grouped by size, with a simple filtering inte
 yarn local:preview
 # ...
 # => http://localhost:3000/
+```
+
+To unlink the local version of the library:
+
+```
+yarn local:restore
 ```
 
 ### Publishing documentation
