@@ -11,7 +11,7 @@
     "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
     "clean": "rm -rf dist && rm -rf build",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
-    "local:link": "cd example && yalc add @moda/icons",
+    "local:link": "cd example && yalc add @moda/icons && yarn install",
     "local:preview": "yarn local:refresh && yarn start",
     "local:publish": "yarn build && yalc publish",
     "local:refresh": "yarn local:publish && yarn local:link",
