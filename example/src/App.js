@@ -1,43 +1,58 @@
 import React, { useState, useCallback, useEffect } from "react";
+import { Reset } from "styled-reset";
 import styled from "styled-components";
 import { groupBy } from "lodash";
 import * as Icons from "@moda/icons";
-
+import { spacing, color, text, breakpoints } from "@moda/tokens";
 import { Display } from "./components/Display";
+import { GlobalStyles } from "./components/GlobalStyles";
 
 const Header = styled.header`
-  margin-bottom: 3em;
+  margin-bottom: ${spacing(7)};
 `;
 
-const Title = styled.h1`
+const H1 = styled.h1`
+  ${text("h4")}
+  margin: ${spacing(6, 0)};
   text-align: center;
 `;
 
+const Center = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const Filter = styled.input`
-  font-size: 1rem;
-  padding: 0.25em 1em;
-  border-radius: 1em;
-  border: 1px solid #bebebe;
-  display: block;
-  margin: 0 auto;
+  padding: ${spacing(1, 4)};
+  border-radius: 1rem;
+  border: 1px solid ${color("elephant")};
 
   &:focus {
     outline: none;
-    border-color: #969696;
+    border-color: ${color("elephant")};
   }
 `;
 
 const Set = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  margin: 1em auto 5em auto;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+
+  @media (max-width: ${breakpoints.lg}) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @media (max-width: ${breakpoints.sm}) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 
 const SubHeader = styled.h3`
-  border-bottom: 1px solid;
-  padding-bottom: 1em;
-  font-size: 1rem;
-  padding-left: 3em;
+  ${text("body1", "code")}
+  color: ${color("cement")};
+  padding: ${spacing(4, 0)};
+  margin-bottom: ${spacing(2)};
+  border-bottom: 1px solid ${color("elephant")};
 `;
 
 const Size = ({ size, iconSet }) => (
@@ -85,9 +100,16 @@ export default () => {
 
   return (
     <>
+      <Reset />
+
+      <GlobalStyles />
+
       <Header>
-        <Title>@moda/icons</Title>
-        <Filter placeholder="Find an icon" onChange={handleChange} />
+        <H1>@moda/icons</H1>
+
+        <Center>
+          <Filter placeholder="Find an icon" onChange={handleChange} />
+        </Center>
       </Header>
 
       {Object.entries(groupedIcons).map(([size, iconSet]) => (
