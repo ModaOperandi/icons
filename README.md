@@ -58,7 +58,9 @@ Alternatively this can be set using a prop:
 
 ## Adding an icon
 
-Simply import your SVG to [`src/svg`](/src/svg) using the naming convention of snake-cased name followed by the desired native size: `Arrow_Down_12.svg`.
+The SVG you wish to add *must be outlined*.
+
+Once you have an SVG you want to add, simply import it to [`src/svg`](/src/svg) using the naming convention of snake-cased name followed by the desired native size: `Arrow_Down_12.svg`.
 
 #### Making Commits
 
