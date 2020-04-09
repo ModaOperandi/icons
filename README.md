@@ -11,7 +11,7 @@ This is a build pipeline for dealing with and packaging SVG icons into React com
 ## Meta
 
 - **State**: production
-- **Point people**: <del>[@dzucconi](https://github.com/dzucconi)</del> You?
+- **Point people**: [@jmcriffey](https://github.com/jmcriffey)
 
 ## Getting started
 
