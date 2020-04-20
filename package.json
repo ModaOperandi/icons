@@ -29,6 +29,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@semantic-release/npm": "^7.0.5",
+    "@svgr/core": "^5.3.1",
     "@types/react": "^16.9.34",
     "cz-conventional-changelog": "^3.1.0",
     "del": "^5.1.0",

@@ -1,12 +1,8 @@
 "use strict";
 
 const path = require("path");
+const svgr = require('@svgr/core').default;
 const { upperFirst, camelCase, kebabCase, last } = require("lodash");
-
-const getSVGContent = source =>
-  // Get the contents of the optimized SVG
-  // by trimming leading and tailing <svg> tags
-  source.slice(source.indexOf(">") + 1).slice(0, -6);
 
 const DEFAULT_CONTAINER_STYLES = {
   position: "relative"
@@ -22,20 +18,25 @@ const DEFAULT_SVG_STYLES = {
   height: "100%"
 };
 
-const getReactSource = ({ componentName, svgPaths, width, height }) => {
+const getReactSource = ({ componentName, svgSource, width, height }) => {
+  const svgAsJsx = svgr.sync(svgSource, {
+    expandProps: false,
+    svgProps: {
+      style: `{svgStyle}`,
+      viewBox: `0 0 ${width} ${height}`
+    },
+    template: (api, opts, {jsx}) => jsx
+  });
+
   return `
     import * as React from 'react';
 
     const ${componentName} = ({ color = 'currentcolor', height = '${height}px', width = '${width}px', ...rest }) => {
+      const svgStyle: React.CSSProperties = {...${JSON.stringify(DEFAULT_SVG_STYLES)}, fill: color};
+
       return (
-        <div style={{ ...${JSON.stringify(
-          DEFAULT_CONTAINER_STYLES
-        )}, height, width }} { ...rest }>
-          <svg style={{ ...${JSON.stringify(
-            DEFAULT_SVG_STYLES
-          )}, fill: color }} viewBox="0 0 ${width} ${height}">
-            ${svgPaths}
-          </svg>
+        <div style={{ ...${JSON.stringify(DEFAULT_CONTAINER_STYLES)}, height, width }} { ...rest }>
+          ${svgAsJsx}
         </div>
       );
     };
@@ -99,8 +100,7 @@ const packageIcons = ({ svgs, version }) => {
     }
 
     const componentName = `${upperFirst(camelCase(name))}`;
-    const svgPaths = getSVGContent(svg.source);
-    const source = getReactSource({ componentName, svgPaths, width, height });
+    const source = getReactSource({ componentName, svgSource: svg.source, width, height });
     const fileName = kebabCase(componentName);
 
     return {
