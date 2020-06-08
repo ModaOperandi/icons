@@ -1,13 +1,5 @@
-<svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Link/20">
-<g id="Group 19">
-<g id="Group 18">
-<g id="Group 15">
-<rect id="Rectangle 84" x="15.3614" y="1.42635" width="5.25" height="7.75" transform="rotate(45 15.3614 1.42635)" stroke="#191A1B"/>
-<rect id="Rectangle 85" x="7.40643" y="9.38142" width="5.25" height="7.75" transform="rotate(45 7.40643 9.38142)" stroke="#191A1B"/>
-</g>
-</g>
-<path id="Vector 13" d="M6.52256 13.9774L14.4775 6.02246" stroke="#191A1B"/>
-</g>
-</g>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="14.8613" y="1.42635" width="5.25" height="7.75" transform="rotate(45 14.8613 1.42635)" stroke="#191A1B"/>
+  <rect x="6.90649" y="9.3813" width="5.25" height="7.75" transform="rotate(45 6.90649 9.3813)" stroke="#191A1B"/>
+  <path d="M6.02259 13.9775L13.9775 6.02252" stroke="#191A1B"/>
 </svg>
