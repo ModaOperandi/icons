@@ -41,7 +41,7 @@
     "semantic-release": "^17.1.0",
     "svgo": "^1.3.2",
     "typescript": "^3.9.5",
-    "yalc": "^1.0.0-pre.35"
+    "yalc": "^1.0.0-pre.36"
   },
   "release": {
     "pkgRoot": "dist"
