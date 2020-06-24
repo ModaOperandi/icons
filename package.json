@@ -30,7 +30,7 @@
     "@commitlint/config-conventional": "^9.0.1",
     "@semantic-release/npm": "^7.0.5",
     "@svgr/core": "^5.4.0",
-    "@types/react": "^16.9.38",
+    "@types/react": "^16.9.41",
     "cz-conventional-changelog": "^3.2.0",
     "del": "^5.1.0",
     "fs-extra": "^9.0.1",
