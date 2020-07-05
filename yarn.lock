@@ -6540,10 +6540,10 @@ y18n@^4.0.0:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
 
-yalc@^1.0.0-pre.36:
-  version "1.0.0-pre.36"
-  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.36.tgz#627603a0e390a0e00e663aa45438b8693b385ff3"
-  integrity sha512-ZY8tDdN42AcIMudqsGzq26i7v6S0tL8VJn7nV0z75I0ctOJhILZ0SlYMnU2Jqcv37o+eqY+F4XcIsi74F7iuIg==
+yalc@^1.0.0-pre.37:
+  version "1.0.0-pre.37"
+  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.37.tgz#1568c5d40a5fede94f3dd10c52954aa805b764a3"
+  integrity sha512-SeUJjU4fxLpWjIAolDTbDILEww3gJLc3WeIfmYkeE2HaRvEqPDWVWy8S5PERPduRxV54sGVqI5I6p8Lp5LHUtg==
   dependencies:
     fs-extra "^8.0.1"
     glob "^7.1.4"
