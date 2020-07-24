@@ -6611,10 +6611,10 @@ y18n@^4.0.0:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
 
-yalc@^1.0.0-pre.37:
-  version "1.0.0-pre.37"
-  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.37.tgz#1568c5d40a5fede94f3dd10c52954aa805b764a3"
-  integrity sha512-SeUJjU4fxLpWjIAolDTbDILEww3gJLc3WeIfmYkeE2HaRvEqPDWVWy8S5PERPduRxV54sGVqI5I6p8Lp5LHUtg==
+yalc@^1.0.0-pre.39:
+  version "1.0.0-pre.39"
+  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.39.tgz#9a9e5cc6dca14816eef62732c79f5498f4de6bdf"
+  integrity sha512-/Hs0PON9Y5Dg4N7ubuad1YBDKguZYxhj44GUHzAVZkMYXRcs0ZYknaesnCfPAh9XJVwKqeXKZYF1rbrWir2Iag==
   dependencies:
     fs-extra "^8.0.1"
     glob "^7.1.4"
