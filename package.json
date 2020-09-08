@@ -36,7 +36,7 @@
     "del": "^5.1.0",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
-    "husky": "^4.2.5",
+    "husky": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "semantic-release": "^17.1.1",
