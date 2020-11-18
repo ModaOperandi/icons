@@ -1981,7 +1981,7 @@ detect-file@^1.0.0:
   resolved "https://registry.yarnpkg.com/detect-file/-/detect-file-1.0.0.tgz#f0d66d03672a825cb1b73bdb3fe62310c8e552b7"
   integrity sha1-8NZtA2cqglyxtzvbP+YjEMjlUrc=
 
-detect-indent@6.0.0:
+detect-indent@6.0.0, detect-indent@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.0.0.tgz#0abd0f549f69fc6659a254fe96786186b6f528fd"
   integrity sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA==
@@ -3066,12 +3066,7 @@ ignore-walk@^3.0.1:
   dependencies:
     minimatch "^3.0.4"
 
-ignore@^5.0.4, ignore@^5.1.1:
-  version "5.1.4"
-  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.4.tgz#84b7b3dbe64552b6ef0eca99f6743dbec6d97adf"
-  integrity sha512-MzbUSahkTW1u7JpKKjY7LCARd1fU5W2rLdxlM4kdkayuCwZImjkpluF9CM1aLewYJguPDqewLam18Y6AU69A8A==
-
-ignore@^5.1.4:
+ignore@^5.0.4, ignore@^5.1.1, ignore@^5.1.4:
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.1.8.tgz#f150a8b50a34289b33e22f5889abd4d8016f0e57"
   integrity sha512-BMpfD7PpiETpBl/A6S498BaIJ6Y/ABT93ETbby2fP00v4EbvPBXWEoaR1UBPKs3iR53pJY7EtZk5KACI57i1Uw==
@@ -6919,12 +6914,13 @@ y18n@^4.0.0:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
   integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
 
-yalc@^1.0.0-pre.45:
-  version "1.0.0-pre.45"
-  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.45.tgz#beeb1f77292d848c69f533afd0c9757a1471b5be"
-  integrity sha512-VamtCYEJt/axPS73MSnXR5lTEnE8Ar5Ltf/Eo3w7V1KTb3lAKzTtkfhMJ4Pylxw515YSWlV6Vabyht8uw4NRKA==
+yalc@^1.0.0-pre.46:
+  version "1.0.0-pre.46"
+  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.46.tgz#047bc40b747bb4c29b8a60c78a5439e5c6d924a8"
+  integrity sha512-ZGde+9sjQlkUSvE3EShWQCUhKzt913sloaCKraKrsjf5pxjbiZq5/4fKcfADt+OIMS6X5AI28a2TXlPFLNf0rw==
   dependencies:
     chalk "^4.1.0"
+    detect-indent "^6.0.0"
     fs-extra "^8.0.1"
     glob "^7.1.4"
     ignore "^5.0.4"
