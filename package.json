@@ -29,7 +29,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@jedmao/semantic-release-npm-github-config": "^1.0.9",
-    "@semantic-release/npm": "^7.0.9",
+    "@semantic-release/npm": "^7.0.10",
     "@svgr/core": "^5.5.0",
     "@types/react": "^17.0.0",
     "cz-conventional-changelog": "^3.3.0",
