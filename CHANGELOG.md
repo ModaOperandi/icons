@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.1](https://github.com/ModaOperandi/icons/compare/v5.5.0...v5.5.1) (2021-02-22)
+
+
+### Bug Fixes
+
+* use devops-dev context ([167937c](https://github.com/ModaOperandi/icons/commit/167937c))
+
 # [5.5.0](https://github.com/ModaOperandi/icons/compare/v5.4.0...v5.5.0) (2020-11-27)
 
 
