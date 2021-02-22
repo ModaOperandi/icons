@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.5.2](https://github.com/ModaOperandi/icons/compare/v5.5.1...v5.5.2) (2021-02-22)
+
+
+### Bug Fixes
+
+* add workflows ([c61be91](https://github.com/ModaOperandi/icons/commit/c61be91))
+* circle config ([bca8b4d](https://github.com/ModaOperandi/icons/commit/bca8b4d))
+
 ## [5.5.1](https://github.com/ModaOperandi/icons/compare/v5.5.0...v5.5.1) (2021-02-22)
 
 
