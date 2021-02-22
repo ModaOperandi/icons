@@ -1,10 +1,6 @@
 version: 2
 jobs:
   build:
-    context: devops-dev
-    branches:
-      only:
-        - master
     docker:
       - image: "circleci/node:latest"
     steps:
@@ -24,3 +20,13 @@ jobs:
       - run:
           name: release
           command: yarn run semantic-release || true
+
+workflows:
+  master:
+    jobs:
+      - build:
+          context: devops-dev
+          filters:
+            branches:
+              only:
+                - master
