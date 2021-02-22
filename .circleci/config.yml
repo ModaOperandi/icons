@@ -20,8 +20,8 @@ jobs:
       - run:
           name: release
           command: yarn run semantic-release || true
-
 workflows:
+  version: 2
   master:
     jobs:
       - build:
