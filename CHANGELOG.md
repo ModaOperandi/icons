@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.6.0](https://github.com/ModaOperandi/icons/compare/v5.5.2...v5.6.0) (2021-03-01)
+
+
+### Features
+
+* add mail open icon ([2940acf](https://github.com/ModaOperandi/icons/commit/2940acf))
+
 ## [5.5.2](https://github.com/ModaOperandi/icons/compare/v5.5.1...v5.5.2) (2021-02-22)
 
 
