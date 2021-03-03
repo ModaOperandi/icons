@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.7.0](https://github.com/ModaOperandi/icons/compare/v5.6.0...v5.7.0) (2021-03-03)
+
+
+### Features
+
+* **exit:** good import ([5907413](https://github.com/ModaOperandi/icons/commit/5907413))
+* **exit:** updates exit_20 ([fed1d33](https://github.com/ModaOperandi/icons/commit/fed1d33))
+* **exit:** updates exit_20 ([f432767](https://github.com/ModaOperandi/icons/commit/f432767))
+
 # [5.6.0](https://github.com/ModaOperandi/icons/compare/v5.5.2...v5.6.0) (2021-03-01)
 
 
