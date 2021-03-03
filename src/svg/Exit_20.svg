@@ -1,9 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
-    <title>Icons/Exit/20</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Icons/Exit/20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M10,9.29289322 L16.6464466,2.64644661 L17.3535534,3.35355339 L10.7071068,10 L17.3535534,16.6464466 L16.6464466,17.3535534 L10,10.7071068 L3.35355339,17.3535534 L2.64644661,16.6464466 L9.29289322,10 L2.64644661,3.35355339 L3.35355339,2.64644661 L10,9.29289322 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
-    </g>
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Exit/20">
+<path id="Combined Shape" fill-rule="evenodd" clip-rule="evenodd" d="M9.29293 10L2.64648 3.35356L3.35359 2.64645L10 9.2929L16.6465 2.64645L17.3536 3.35356L10.7071 10L17.3536 16.6465L16.6465 17.3536L10 10.7071L3.35359 17.3536L2.64648 16.6465L9.29293 10Z" fill="#191A1B"/>
+</g>
 </svg>
