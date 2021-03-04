@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.7.1](https://github.com/ModaOperandi/icons/compare/v5.7.0...v5.7.1) (2021-03-04)
+
+
+### Bug Fixes
+
+* icons can't be filled ([1299688](https://github.com/ModaOperandi/icons/commit/1299688))
+
 # [5.7.0](https://github.com/ModaOperandi/icons/compare/v5.6.0...v5.7.0) (2021-03-03)
 
 
