@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     'removeDimensions',
-    'removeViewbox',
+    'removeViewBox',
     'removeXMLNS',
     {
       name: 'removeAttrs',
