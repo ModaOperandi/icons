@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.7.2](https://github.com/ModaOperandi/icons/compare/v5.7.1...v5.7.2) (2021-03-08)
+
+
+### Bug Fixes
+
+* remove id attributes ([72cbf69](https://github.com/ModaOperandi/icons/commit/72cbf69))
+
 ## [5.7.1](https://github.com/ModaOperandi/icons/compare/v5.7.0...v5.7.1) (2021-03-04)
 
 
