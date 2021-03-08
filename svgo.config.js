@@ -5,7 +5,7 @@ module.exports = {
     'removeXMLNS',
     {
       name: 'removeAttrs',
-      params: {attrs: '(fill|fill-rule)'}
+      params: {attrs: '(fill|fill-rule|id)'}
     }
   ]
 }
