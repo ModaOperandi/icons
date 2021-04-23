@@ -5039,7 +5039,7 @@ npm-package-arg@^8.0.0, npm-package-arg@^8.0.1, npm-package-arg@^8.1.0, npm-pack
     semver "^7.3.4"
     validate-npm-package-name "^3.0.0"
 
-npm-packlist@^1.1.12, npm-packlist@^1.4.1, npm-packlist@^1.4.8:
+npm-packlist@^1.1.12, npm-packlist@^1.4.8:
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.8.tgz#56ee6cc135b9f98ad3d51c1c95da22bbb9b2ef3e"
   integrity sha512-5+AZgwru5IevF5ZdnFglB5wNlHG1AOOuw28WhUq8/8emhBmLv6jX5by4WJCh7lW0uSYZYS6DXqIsyZVIXRZU9A==
@@ -5048,7 +5048,7 @@ npm-packlist@^1.1.12, npm-packlist@^1.4.1, npm-packlist@^1.4.8:
     npm-bundled "^1.0.1"
     npm-normalize-package-bin "^1.0.1"
 
-npm-packlist@^2.1.4:
+npm-packlist@^2.1.4, npm-packlist@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-2.1.5.tgz#43ef5bbb9f59b7c0ef91e0905f1dd707b4cfb33c"
   integrity sha512-KCfK3Vi2F+PH1klYauoQzg81GQ8/GGjQRKYY6tRnpQUPKTs/1gBZSRWtTEd7jGdSn1LZL7gpAmJT+BcS55k2XQ==
@@ -7604,10 +7604,10 @@ y18n@^5.0.5:
   resolved "https://registry.yarnpkg.com/y18n/-/y18n-5.0.5.tgz#8769ec08d03b1ea2df2500acef561743bbb9ab18"
   integrity sha512-hsRUr4FFrvhhRH12wOdfs38Gy7k2FFzB9qgN9v3aLykRq0dRcdcpz5C9FxdS2NuhOrI/628b/KSTJ3rwHysYSg==
 
-yalc@^1.0.0-pre.50:
-  version "1.0.0-pre.50"
-  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.50.tgz#e654e5af5f739cf255eedad1d66ba05a17de78f9"
-  integrity sha512-HGFjFFUhXSpQcxyOwJQl3jhERMn7XBgSCCoJ1k3dDPMbH6n56onv6Cp6cDGMiTho8tLIF4x02/Kb4g6pHavzgA==
+yalc@^1.0.0-pre.51:
+  version "1.0.0-pre.51"
+  resolved "https://registry.yarnpkg.com/yalc/-/yalc-1.0.0-pre.51.tgz#4d7fb05a37d2a687c9bbdf4340927c7072d0d5bc"
+  integrity sha512-3dZ3rVST1cSAKfuxifIJ5ayQ3GTiaO25IlKbx49tUylFmuEihiC+5bgTQKUHYP36kCl7zmr2xDMgeM/zNcqrrA==
   dependencies:
     chalk "^4.1.0"
     detect-indent "^6.0.0"
@@ -7615,7 +7615,7 @@ yalc@^1.0.0-pre.50:
     glob "^7.1.4"
     ignore "^5.0.4"
     ini "^2.0.0"
-    npm-packlist "^1.4.1"
+    npm-packlist "^2.1.5"
     yargs "^16.1.1"
 
 yallist@^2.1.2:
