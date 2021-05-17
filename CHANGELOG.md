@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.9.0](https://github.com/ModaOperandi/icons/compare/v5.8.0...v5.9.0) (2021-05-17)
+
+
+### Features
+
+* **pin:** add pin icon ([4cfa889](https://github.com/ModaOperandi/icons/commit/4cfa889))
+
 # [5.8.0](https://github.com/ModaOperandi/icons/compare/v5.7.2...v5.8.0) (2021-04-13)
 
 
