@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.10.0](https://github.com/ModaOperandi/icons/compare/v5.9.0...v5.10.0) (2021-05-24)
+
+
+### Features
+
+* **draggable:** add draggable icon ([1942f82](https://github.com/ModaOperandi/icons/commit/1942f82))
+
 # [5.9.0](https://github.com/ModaOperandi/icons/compare/v5.8.0...v5.9.0) (2021-05-17)
 
 
