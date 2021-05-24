@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Icons/Draggable/20</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons/Item-Count/20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 2.000000)" fill="#000000">
+            <path d="M2,10 C3.104,10 4,9.10533333 4,8 C4,6.89466667 3.104,6 2,6 C0.896,6 0,6.89466667 0,8 C0,9.10533333 0.896,10 2,10" id="Fill-10"></path>
+            <path d="M8,10 C9.104,10 10,9.10533333 10,8 C10,6.89466667 9.104,6 8,6 C6.896,6 6,6.89466667 6,8 C6,9.10533333 6.896,10 8,10" id="Fill-14"></path>
+            <path d="M2,16 C3.104,16 4,15.1053333 4,14 C4,12.8946667 3.104,12 2,12 C0.896,12 0,12.8946667 0,14 C0,15.1053333 0.896,16 2,16" id="Fill-16"></path>
+            <path d="M8,16 C9.104,16 10,15.1053333 10,14 C10,12.8946667 9.104,12 8,12 C6.896,12 6,12.8946667 6,14 C6,15.1053333 6.896,16 8,16" id="Fill-20"></path>
+            <circle id="Oval" fill-rule="nonzero" cx="2" cy="2" r="2"></circle>
+            <circle id="Oval" fill-rule="nonzero" cx="8" cy="2" r="2"></circle>
+        </g>
+    </g>
+</svg>
