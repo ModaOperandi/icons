@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.10.1](https://github.com/ModaOperandi/icons/compare/v5.10.0...v5.10.1) (2021-05-26)
+
+
+### Bug Fixes
+
+* icons with mask ([#330](https://github.com/ModaOperandi/icons/issues/330)) ([c214a9e](https://github.com/ModaOperandi/icons/commit/c214a9e))
+
 # [5.10.0](https://github.com/ModaOperandi/icons/compare/v5.9.0...v5.10.0) (2021-05-24)
 
 
