@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.11.0](https://github.com/ModaOperandi/icons/compare/v5.10.1...v5.11.0) (2021-05-26)
+
+
+### Features
+
+* **icon:** adds Adjust_24 ([c2640b6](https://github.com/ModaOperandi/icons/commit/c2640b6))
+* **icon:** adds Delete_24 ([92e6196](https://github.com/ModaOperandi/icons/commit/92e6196))
+* **icon:** adds Document_24 ([832a63e](https://github.com/ModaOperandi/icons/commit/832a63e))
+* **icon:** adds Download_24 ([00afcbc](https://github.com/ModaOperandi/icons/commit/00afcbc))
+* **icon:** adds Success_48 ([eae29d7](https://github.com/ModaOperandi/icons/commit/eae29d7))
+* **icon:** adds Warning_48 and Error_48 ([dcb400b](https://github.com/ModaOperandi/icons/commit/dcb400b))
+
 ## [5.10.1](https://github.com/ModaOperandi/icons/compare/v5.10.0...v5.10.1) (2021-05-26)
 
 
