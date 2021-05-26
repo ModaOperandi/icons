@@ -3,9 +3,18 @@ module.exports = {
     'removeDimensions',
     'removeViewBox',
     'removeXMLNS',
+    'prefixIds',
     {
-      name: 'removeAttrs',
-      params: {attrs: '(fill|fill-rule|id)'}
-    }
-  ]
-}
+      name: 'removeAttributesBySelector',
+      params: {
+        selectors: [
+          {
+            selector:
+              'svg > :not(mask):not([fill="white"]), svg > :not(mask) :not([fill="white"])',
+            attributes: 'fill',
+          }
+        ],
+      },
+    },
+  ],
+};
