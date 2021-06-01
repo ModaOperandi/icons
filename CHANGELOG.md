@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.12.0](https://github.com/ModaOperandi/icons/compare/v5.11.0...v5.12.0) (2021-06-01)
+
+
+### Features
+
+* **icons:** adds handshake and vendor portal logo ([c7ef6ae](https://github.com/ModaOperandi/icons/commit/c7ef6ae))
+* **icons:** another attempt with vp logo ([22fd227](https://github.com/ModaOperandi/icons/commit/22fd227))
+* **icons:** remove vp logo ([99296b9](https://github.com/ModaOperandi/icons/commit/99296b9))
+
 # [5.11.0](https://github.com/ModaOperandi/icons/compare/v5.10.1...v5.11.0) (2021-05-26)
 
 
