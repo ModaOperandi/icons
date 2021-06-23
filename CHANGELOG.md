@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.13.0](https://github.com/ModaOperandi/icons/compare/v5.12.0...v5.13.0) (2021-06-23)
+
+
+### Features
+
+* remove title ([2b3cccd](https://github.com/ModaOperandi/icons/commit/2b3cccd))
+
 # [5.12.0](https://github.com/ModaOperandi/icons/compare/v5.11.0...v5.12.0) (2021-06-01)
 
 
