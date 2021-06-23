@@ -3,6 +3,7 @@ module.exports = {
     'removeDimensions',
     'removeViewBox',
     'removeXMLNS',
+    'removeTitle',
     'prefixIds',
     {
       name: 'removeAttributesBySelector',
