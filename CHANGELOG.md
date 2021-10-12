@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.14.0](https://github.com/ModaOperandi/icons/compare/v5.13.0...v5.14.0) (2021-10-12)
+
+
+### Features
+
+* **arrows:** adds filled arrow up and down ([5e00a16](https://github.com/ModaOperandi/icons/commit/5e00a16))
+* **arrows:** rename file ([642ea30](https://github.com/ModaOperandi/icons/commit/642ea30))
+* **chevron:** adds filled chevron icons ([98ad28d](https://github.com/ModaOperandi/icons/commit/98ad28d))
+
 # [5.13.0](https://github.com/ModaOperandi/icons/compare/v5.12.0...v5.13.0) (2021-06-23)
 
 
