@@ -33,7 +33,7 @@
     "@commitlint/config-conventional": "^15.0.0",
     "@jedmao/semantic-release-npm-github-config": "^1.0.9",
     "@semantic-release/npm": "^8.0.3",
-    "@svgr/core": "^5.5.0",
+    "@svgr/core": "^6.1.1",
     "@types/react": "^17.0.37",
     "cz-conventional-changelog": "^3.3.0",
     "del": "^6.0.0",
