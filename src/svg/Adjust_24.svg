@@ -1,12 +1,12 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0003 4.80005L7.68031 10.56H16.3203L12.0003 4.80005Z" fill="#2870B3"/>
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="7" y="4" width="10" height="7">
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="4" width="10" height="7">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0003 4.80005L7.68031 10.56H16.3203L12.0003 4.80005Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">
 </g>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9997 19.2L16.3197 13.44H7.67969L11.9997 19.2Z" fill="#2870B3"/>
-<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="7" y="13" width="10" height="7">
+<mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="7" y="13" width="10" height="7">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9997 19.2L16.3197 13.44H7.67969L11.9997 19.2Z" fill="white"/>
 </mask>
 <g mask="url(#mask1)">

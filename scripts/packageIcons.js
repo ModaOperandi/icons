@@ -1,7 +1,7 @@
 "use strict";
 
 const path = require("path");
-const svgr = require('@svgr/core').default;
+const { transform } = require('@svgr/core');
 const { upperFirst, camelCase, kebabCase, last } = require("lodash");
 
 const DEFAULT_CONTAINER_STYLES = {
@@ -19,13 +19,13 @@ const DEFAULT_SVG_STYLES = {
 };
 
 const getReactSource = ({ componentName, svgSource, width, height }) => {
-  const svgAsJsx = svgr.sync(svgSource, {
+  const svgAsJsx = transform.sync(svgSource, {
     expandProps: false,
     svgProps: {
       style: `{svgStyle}`,
       viewBox: `0 0 ${width} ${height}`
     },
-    template: (api, opts, {jsx}) => jsx
+    template: ({jsx}) => jsx
   });
 
   return `
