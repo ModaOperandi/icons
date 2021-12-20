@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.15.0](https://github.com/ModaOperandi/icons/compare/v5.14.0...v5.15.0) (2021-12-20)
+
+
+### Features
+
+* trigger a release ([6e0b119](https://github.com/ModaOperandi/icons/commit/6e0b11996ab490b506948f4709b6d4fed6e3f3c8))
+
 # [5.14.0](https://github.com/ModaOperandi/icons/compare/v5.13.0...v5.14.0) (2021-10-12)
 
 
