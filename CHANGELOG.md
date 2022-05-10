@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.16.0](https://github.com/ModaOperandi/icons/compare/v5.15.0...v5.16.0) (2022-05-10)
+
+
+### Features
+
+* undo and redo icons ([#474](https://github.com/ModaOperandi/icons/issues/474)) ([d0b26b2](https://github.com/ModaOperandi/icons/commit/d0b26b25149481586940409c1b6863869340bda2))
+
 # [5.15.0](https://github.com/ModaOperandi/icons/compare/v5.14.0...v5.15.0) (2021-12-20)
 
 
