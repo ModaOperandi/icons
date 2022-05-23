@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.18.0](https://github.com/ModaOperandi/icons/compare/v5.17.0...v5.18.0) (2022-05-23)
+
+
+### Features
+
+* **circle:** adds the 12px circle ([#479](https://github.com/ModaOperandi/icons/issues/479)) ([17a5986](https://github.com/ModaOperandi/icons/commit/17a59869d9338022964ed98ec64d7b4a681b7009))
+
 # [5.17.0](https://github.com/ModaOperandi/icons/compare/v5.16.0...v5.17.0) (2022-05-11)
 
 
