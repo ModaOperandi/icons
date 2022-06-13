@@ -43,7 +43,7 @@
     "pinst": "^3.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^19.0.3",
     "svgo": "^2.8.0",
     "typescript": "^4.7.3",
     "yalc": "^1.0.0-pre.53"
