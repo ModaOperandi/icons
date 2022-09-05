@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.18.1](https://github.com/ModaOperandi/icons/compare/v5.18.0...v5.18.1) (2022-09-05)
+
+
+### Bug Fixes
+
+* netlify buld ([f99d557](https://github.com/ModaOperandi/icons/commit/f99d5570e7c486d2f39d187b00fba623c1bebba7))
+
 # [5.18.0](https://github.com/ModaOperandi/icons/compare/v5.17.0...v5.18.0) (2022-05-23)
 
 
