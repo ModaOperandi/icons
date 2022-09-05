@@ -1,5 +1,5 @@
 #!/bin/sh
-if [ -n "$NF_IMAGE_TAG" ]; then exit 0; fi
+if [ -n "$NETLIFY" ]; then exit 0; fi
 
 . "$(dirname "$0")/_/husky.sh"
 
