@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.18.2](https://github.com/ModaOperandi/icons/compare/v5.18.1...v5.18.2) (2022-09-06)
+
+
+### Bug Fixes
+
+* **build:** remove unnecessary directory deletion and reference to "del" library ([92cc1c8](https://github.com/ModaOperandi/icons/commit/92cc1c8ba6394321ea87ed5dda780dfa69127ea1))
+
 ## [5.18.1](https://github.com/ModaOperandi/icons/compare/v5.18.0...v5.18.1) (2022-09-05)
 
 
