@@ -1,5 +1,4 @@
 const glob = require("glob");
-const del = require("del");
 const fs = require("fs-extra");
 const path = require("path");
 
@@ -9,8 +8,10 @@ const { version } = require("../package.json");
 const filepaths = glob.sync("build/svg/*.svg");
 const BUILD_PATH = path.join(__dirname, "..", "build", "src");
 
-del.sync(BUILD_PATH);
-
+// This doesn't work if the "optimize" step hasn't been done, by running:
+// `rm -rf build/svg && svgo src/svg -o build/svg --config=svgo.config.js`.
+// which is aliased under the "optimize" run script in package.json.
+// This is because the svg files need to be in the "build" directory before being packaged.
 const files = packageIcons({
   svgs: filepaths.map(filepath => ({
     path: filepath,
