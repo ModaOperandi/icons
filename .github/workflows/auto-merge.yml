@@ -1,32 +1,21 @@
 name: Auto merge
 on:
-  pull_request:
+  pull_request_target:
     types:
-      - labeled
-      - unlabeled
-      - synchronize
       - opened
-      - edited
-      - ready_for_review
-      - reopened
-      - unlocked
-    branches-ignore:
-      - 'dependabot/**'
-  pull_request_review:
-    types:
-      - submitted
-  check_suite:
-    types:
-      - completed
-  status: {}
+permissions:
+  pull-requests: write
+  contents: write
 jobs:
-  automerge:
+  auto-merge:
     runs-on: ubuntu-latest
+    if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     steps:
-      - name: automerge
-        uses: "pascalgn/automerge-action@v0.14.1"
+      - name: Dependabot metadata
+        id: dependabot-metadata
+        uses: dependabot/fetch-metadata@v1
+      - name: Enable auto-merge for Dependabot PRs
+        run: gh pr merge --auto --merge "$PR_URL"
         env:
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          MERGE_LABELS: "auto-merge"
-          UPDATE_LABELS: "auto-merge,!dependencies"
-          MERGE_RETRIES: 0
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}

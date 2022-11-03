@@ -6,6 +6,5 @@ updates:
     schedule:
       interval: daily
     labels:
-      - 'auto-merge'
       - 'dependencies'
     open-pull-requests-limit: 10
