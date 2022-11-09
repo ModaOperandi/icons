@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.19.0](https://github.com/ModaOperandi/icons/compare/v5.18.2...v5.19.0) (2022-11-09)
+
+
+### Features
+
+* **video-icons:** adds video icons ([#524](https://github.com/ModaOperandi/icons/issues/524)) ([2c62501](https://github.com/ModaOperandi/icons/commit/2c62501fd7e1779427544b87892a91d269d0aa2d))
+
 ## [5.18.2](https://github.com/ModaOperandi/icons/compare/v5.18.1...v5.18.2) (2022-09-06)
 
 
