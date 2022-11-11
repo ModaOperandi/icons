@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.19.2](https://github.com/ModaOperandi/icons/compare/v5.19.1...v5.19.2) (2022-11-11)
+
+
+### Bug Fixes
+
+* **diamond:** adds missing icon ([#526](https://github.com/ModaOperandi/icons/issues/526)) ([284541c](https://github.com/ModaOperandi/icons/commit/284541c1cec01b1f5dee6bbc6acf331cbe67e34e))
+
 ## [5.19.1](https://github.com/ModaOperandi/icons/compare/v5.19.0...v5.19.1) (2022-11-10)
 
 
