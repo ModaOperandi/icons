@@ -36,7 +36,7 @@
     "@svgr/core": "^6.5.1",
     "@types/react": "^18.0.25",
     "cz-conventional-changelog": "^3.3.0",
-    "fs-extra": "^11.0.0",
+    "fs-extra": "^11.1.0",
     "glob": "^8.0.3",
     "husky": "^8.0.2",
     "pinst": "^3.0.0",
