@@ -34,7 +34,7 @@
     "@jedmao/semantic-release-npm-github-config": "^1.0.9",
     "@semantic-release/npm": "^9.0.1",
     "@svgr/core": "^6.5.1",
-    "@types/react": "^18.0.25",
+    "@types/react": "^18.0.26",
     "cz-conventional-changelog": "^3.3.0",
     "fs-extra": "^11.1.0",
     "glob": "^8.0.3",
