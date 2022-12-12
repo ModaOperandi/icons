@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.19.4](https://github.com/ModaOperandi/icons/compare/v5.19.3...v5.19.4) (2022-12-12)
+
+
+### Bug Fixes
+
+* **pause-filled:** readds the old icon ([#541](https://github.com/ModaOperandi/icons/issues/541)) ([bd8c751](https://github.com/ModaOperandi/icons/commit/bd8c751643b2a1a8b34bb900520c88b292e9bb18))
+
 ## [5.19.3](https://github.com/ModaOperandi/icons/compare/v5.19.2...v5.19.3) (2022-12-12)
 
 
