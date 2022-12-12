@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.19.3](https://github.com/ModaOperandi/icons/compare/v5.19.2...v5.19.3) (2022-12-12)
+
+
+### Bug Fixes
+
+* **pause-icon:** corrects the initial pause-filled design ([#540](https://github.com/ModaOperandi/icons/issues/540)) ([369021b](https://github.com/ModaOperandi/icons/commit/369021b8393542e00b57f4ff490e025dde8a6da3))
+
 ## [5.19.2](https://github.com/ModaOperandi/icons/compare/v5.19.1...v5.19.2) (2022-11-11)
 
 
