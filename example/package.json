@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@moda/icons": "file:../dist",
-    "@moda/tokens": "^5.6.0",
+    "@moda/tokens": "^5.7.0",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
