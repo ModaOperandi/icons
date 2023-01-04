@@ -1802,10 +1802,10 @@
 "@moda/icons@file:../dist":
   version "0.0.0-development"
 
-"@moda/tokens@^5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@moda/tokens/-/tokens-5.6.0.tgz#ea66e7b999a260cc00617d04bf9ff488e0c4124d"
-  integrity sha512-A1NDs8O2UXRHIOol6AETGHdkX+70G43Ihv15/cx7sWSebyzctLQ0OdFTFWtNbVi5PgYlvpkvEXNusVcLlaHRyw==
+"@moda/tokens@^5.7.0":
+  version "5.7.0"
+  resolved "https://registry.yarnpkg.com/@moda/tokens/-/tokens-5.7.0.tgz#5681a2ca40dd289b69089c4f9fa54e0ebd3e7356"
+  integrity sha512-+XbHQ7+lmo8CDlALC+FHubo/zD65yiTDybeBN5tUp8ikUVkSjQ6bfLn82KLQmXg6xiA7RiQJaD6jSqTtJSPFcQ==
   dependencies:
     color-string "^1.5.5"
 
