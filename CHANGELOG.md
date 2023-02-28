@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.20.0](https://github.com/ModaOperandi/icons/compare/v5.19.4...v5.20.0) (2023-02-28)
+
+
+### Bug Fixes
+
+* convert to outline ([3fb4786](https://github.com/ModaOperandi/icons/commit/3fb4786f7fd66714053e8cf6ca525f74c488c428))
+
+
+### Features
+
+* **icon:** eye icon 20 ([e179df7](https://github.com/ModaOperandi/icons/commit/e179df7e7054ae62526735a64ec86d4816bfad0e))
+* **icon:** potential fix for fill ([5e7d614](https://github.com/ModaOperandi/icons/commit/5e7d614546dee83d3a8707c2926577de1f2bed43))
+* **icon:** potential fix for fill ([4f352d8](https://github.com/ModaOperandi/icons/commit/4f352d827a88ff805d8320aa905dbd373eb789df))
+* **icon:** potential fix for fill ([dfe22fa](https://github.com/ModaOperandi/icons/commit/dfe22fa936a90f9ae113ba13b10acb50a53a29a0))
+* **icon:** potential fix for fill ([14cd2de](https://github.com/ModaOperandi/icons/commit/14cd2de3601026156d675f96f5ebcf3000d386b0))
+* **icon:** potential fix for fill ([f90342e](https://github.com/ModaOperandi/icons/commit/f90342e8b1cc7216f9947bbc0aba7b6c011be5ae))
+
 ## [5.19.4](https://github.com/ModaOperandi/icons/compare/v5.19.3...v5.19.4) (2022-12-12)
 
 
