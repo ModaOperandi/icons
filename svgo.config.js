@@ -5,7 +5,10 @@ module.exports = {
     "removeXMLNS",
     "removeTitle",
     "prefixIds",
-    "removeUselessStrokeAndFill: false",
+    {
+      name: "removeUselessStrokeAndFill",
+      active: false,
+    },
     {
       name: "removeAttributesBySelector",
       params: {
