@@ -1,20 +1,20 @@
 module.exports = {
   plugins: [
-    'removeDimensions',
-    'removeViewBox',
-    'removeXMLNS',
-    'removeTitle',
-    'prefixIds',
-    'removeUselessStrokeAndFill' = false,
+    "removeDimensions",
+    "removeViewBox",
+    "removeXMLNS",
+    "removeTitle",
+    "prefixIds",
+    "removeUselessStrokeAndFill: false",
     {
-      name: 'removeAttributesBySelector',
+      name: "removeAttributesBySelector",
       params: {
         selectors: [
           {
             selector:
               'svg > :not(mask):not([fill="white"]), svg > :not(mask) :not([fill="white"])',
-            attributes: 'fill',
-          }
+            attributes: "fill",
+          },
         ],
       },
     },
