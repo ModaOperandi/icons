@@ -1,11 +1,11 @@
-const glob = require("glob");
+const {globSync} = require("glob");
 const fs = require("fs-extra");
 const path = require("path");
 
 const packageIcons = require("./packageIcons");
 const { version } = require("../package.json");
 
-const filepaths = glob.sync("build/svg/*.svg");
+const filepaths = globSync("build/svg/*.svg");
 const BUILD_PATH = path.join(__dirname, "..", "build", "src");
 
 // This doesn't work if the "optimize" step hasn't been done, by running:
