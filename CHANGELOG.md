@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.21.0](https://github.com/ModaOperandi/icons/compare/v5.20.0...v5.21.0) (2023-05-16)
+
+
+### Bug Fixes
+
+* **ECOM-2845:** delete inactive icons ([f20effc](https://github.com/ModaOperandi/icons/commit/f20effc303b42d9ce47830771eede101b1e6527c))
+* **ECOM-2845:** fixing arrow filling for carousel icons ([1ac83e0](https://github.com/ModaOperandi/icons/commit/1ac83e09bb9555b9b6af8bafb3246cee3432032c))
+* **ECOM-2845:** replace icons with only border outlines ([13e2ece](https://github.com/ModaOperandi/icons/commit/13e2eced7245648e2e572c1e62b35f16a7e3104d))
+
+
+### Features
+
+* **ECOM-2845:** add new carousel chevron icons ([29bb095](https://github.com/ModaOperandi/icons/commit/29bb0952ad0af0a5b52323b337359fdbd6ad7932))
+
 # [5.20.0](https://github.com/ModaOperandi/icons/compare/v5.19.4...v5.20.0) (2023-02-28)
 
 
