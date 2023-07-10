@@ -20,6 +20,7 @@ const DEFAULT_SVG_STYLES = {
 
 const getReactSource = ({ componentName, svgSource, width, height }) => {
   const svgAsJsx = transform.sync(svgSource, {
+    plugins: ['@svgr/plugin-jsx'],
     expandProps: false,
     svgProps: {
       style: `{svgStyle}`,
