@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.0",
-    "@commitlint/config-conventional": "^17.6.7",
+    "@commitlint/config-conventional": "^17.7.0",
     "@jedmao/semantic-release-npm-github-config": "^1.0.9",
     "@semantic-release/npm": "^10.0.4",
     "@svgr/core": "^8.0.0",
