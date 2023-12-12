@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.22.0](https://github.com/ModaOperandi/icons/compare/v5.21.0...v5.22.0) (2023-12-12)
+
+
+### Features
+
+* click icon ([#753](https://github.com/ModaOperandi/icons/issues/753)) ([904f0be](https://github.com/ModaOperandi/icons/commit/904f0be2266adeb3a961e4f7d7a925f08af30e0c))
+
 # [5.21.0](https://github.com/ModaOperandi/icons/compare/v5.20.0...v5.21.0) (2023-05-16)
 
 
