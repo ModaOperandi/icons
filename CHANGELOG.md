@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.23.0](https://github.com/ModaOperandi/icons/compare/v5.22.0...v5.23.0) (2023-12-15)
+
+
+### Features
+
+* **dollar:** adds dollar icon ([4c44e1f](https://github.com/ModaOperandi/icons/commit/4c44e1fb086606011e0c73969179b040f4d767f4))
+
 # [5.22.0](https://github.com/ModaOperandi/icons/compare/v5.21.0...v5.22.0) (2023-12-12)
 
 
