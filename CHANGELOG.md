@@ -1,3 +1,10 @@
+# [5.24.0](https://github.com/ModaOperandi/icons/compare/v5.23.0...5.24.0) (2024-01-08)
+
+
+### Features
+
+* migrate to npm ([#767](https://github.com/ModaOperandi/icons/issues/767)) ([c27f06d](https://github.com/ModaOperandi/icons/commit/c27f06d2f1fc3a8a03c01fe83a68c396aa28ba9c))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See
