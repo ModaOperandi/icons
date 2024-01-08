@@ -5,21 +5,27 @@ jobs:
       - image: "cimg/node:20.10.0"
     steps:
       - checkout
-      # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            # Fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+            - npm-packages-{{ checksum "package-lock.json" }}
       - run:
-          name: install
-          command: yarn install
+          name: Install NPM Packages
+          command: |
+            if [ -d "node_modules" ]; then
+              npm rebuild
+            else
+              npm ci --include=dev
+            fi
       - run:
           name: build
-          command: yarn build
+          command: npm run build
       - run:
           name: release
-          command: yarn run semantic-release || true
+          command: npm run semantic-release || true
+      - save_cache:
+          key: npm-packages-{{ checksum "package-lock.json" }}
+          paths:
+            - node_modules
 workflows:
   version: 2
   master:

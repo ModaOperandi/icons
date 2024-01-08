@@ -8,22 +8,24 @@
   "main": "dist/index.js",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "build": "NODE_ENV=production yarn clean && yarn optimize && node scripts/build && yarn run compile",
+    "build": "NODE_ENV=production npm run clean && npm run optimize && node scripts/build && npm run compile",
     "clean": "rm -rf dist && rm -rf build",
+    "commitlint": "commitlint",
     "compile": "tsc -p . && cp build/src/package.json dist/package.json",
-    "local:link": "cd example && yalc add @moda/icons && yarn install",
-    "local:preview": "yarn local:refresh && yarn start",
-    "local:publish": "yarn build && yalc publish",
-    "local:refresh": "yarn local:publish && yarn local:link",
-    "local:restore": "cd example && yalc remove --all && yarn --check-files",
+    "local:link": "cd example && yalc add @moda/icons && npm install",
+    "local:preview": "npm run local:refresh && npm run start",
+    "local:publish": "npm run build && yalc publish",
+    "local:refresh": "npm run local:publish && npm run local:link",
+    "local:restore": "cd example && yalc remove --all && npm install",
     "optimize": "rm -rf build/svg && svgo src/svg -o build/svg --config=svgo.config.js",
-    "predeploy": "yarn build && cd example && yarn install && yarn build",
-    "release": "yarn build && cd dist && yarn publish",
-    "semantic-release": "semantic-release",
-    "start": "cd example && yarn start",
-    "postinstall": "husky install",
+    "postpublish": "pinst --enable",
+    "predeploy": "npm run build && cd example && npm install && npm run build",
+    "prepare": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "release": "npm run build && cd dist && npm publish",
+    "semantic-release": "semantic-release",
+    "start": "cd example && npm run start",
+    "tsc": "tsc"
   },
   "peerDependencies": {
     "react": ">=16.2.0"
@@ -31,11 +33,10 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
-    "@jedmao/semantic-release-npm-github-config": "^1.0.9",
-    "@semantic-release/npm": "^10.0.6",
+    "@semantic-release/npm": "^11.0.2",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
-    "@types/react": "^18.2.46",
+    "@types/react": "^18.2.47",
     "cz-conventional-changelog": "^3.3.0",
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
@@ -43,7 +44,8 @@
     "pinst": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "semantic-release": "^21.1.1",
+    "semantic-release": "^22.0.12",
+    "semantic-release-npm-github": "^5.0.0",
     "svgo": "^3.2.0",
     "typescript": "^5.3.3",
     "yalc": "^1.0.0-pre.53"
@@ -52,6 +54,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "dependencies": {}
+  }
 }
