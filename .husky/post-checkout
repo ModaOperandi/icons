@@ -3,4 +3,4 @@ if [ -n "$NETLIFY" ]; then exit 0; fi
 
 . "$(dirname "$0")/_/husky.sh"
 
-if [ $3 -eq 1 ]; then yarn install --frozen-lockfile; fi
+if [ $3 -eq 1 ]; then npm install; fi

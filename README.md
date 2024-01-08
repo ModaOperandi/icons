@@ -16,7 +16,7 @@ This is a build pipeline for dealing with and packaging SVG icons into React com
 ## Getting started
 
 ```bash
-yarn add @moda/icons
+npm install --save @moda/icons
 ```
 
 Visit: [https://moda-icons.netlify.com](https://moda-icons.netlify.com/) and click the desired icon to copy its `import` statement.
@@ -66,7 +66,7 @@ Once you have an SVG you want to add, simply import it to [`src/svg`](/src/svg) 
 
 We are using [semantic release](https://github.com/semantic-release/semantic-release) for this repo and [commitizen](https://github.com/commitizen/cz-cli) to help with formatting commits.
 
-- Install the commitizen CLI with `yarn global add commitizen`
+- Install the commitizen CLI with `npm install -g commitizen`
 - To run through the CLI: stage your files to commit and run `git cz`.
 
 ## Documentation
@@ -76,7 +76,7 @@ A full listing of available icons, grouped by size, with a simple filtering inte
 ### Previewing documentation
 
 ```bash
-yarn local:preview
+npm run local:preview
 # ...
 # => http://localhost:3000/
 ```
@@ -84,7 +84,7 @@ yarn local:preview
 To unlink the local version of the library:
 
 ```
-yarn local:restore
+npm run local:restore
 ```
 
 ### Publishing documentation

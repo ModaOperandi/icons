@@ -1,5 +1,5 @@
 {
-  "extends": "@jedmao/semantic-release-npm-github-config",
+  "extends": "semantic-release-npm-github",
   "branch": "master",
   "pkgRoot": "dist"
 }
