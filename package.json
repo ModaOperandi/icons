@@ -36,7 +36,7 @@
     "@semantic-release/npm": "^11.0.2",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
-    "@types/react": "^18.2.48",
+    "@types/react": "^18.2.51",
     "cz-conventional-changelog": "^3.3.0",
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
