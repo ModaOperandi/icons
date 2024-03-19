@@ -1,3 +1,10 @@
+## [5.24.1](https://github.com/ModaOperandi/icons/compare/5.24.0...5.24.1) (2024-03-19)
+
+
+### Bug Fixes
+
+* release ([8223b60](https://github.com/ModaOperandi/icons/commit/8223b60b04066b8c49028aaae22ea9d1f6929710))
+
 # [5.24.0](https://github.com/ModaOperandi/icons/compare/v5.23.0...5.24.0) (2024-01-08)
 
 
