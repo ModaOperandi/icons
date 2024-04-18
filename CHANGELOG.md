@@ -1,3 +1,10 @@
+# [5.25.0](https://github.com/ModaOperandi/icons/compare/5.24.1...5.25.0) (2024-04-18)
+
+
+### Features
+
+* liquid snippets ([#830](https://github.com/ModaOperandi/icons/issues/830)) ([2facd12](https://github.com/ModaOperandi/icons/commit/2facd129bd48177a03e7d6db992a0d5631c10b87))
+
 ## [5.24.1](https://github.com/ModaOperandi/icons/compare/5.24.0...5.24.1) (2024-03-19)
 
 
