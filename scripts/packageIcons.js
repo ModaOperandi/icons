@@ -3,6 +3,7 @@
 const path = require("path");
 const { transform } = require('@svgr/core');
 const { upperFirst, camelCase, kebabCase, last } = require("lodash");
+const { parse } = require('svg-parser');
 
 const DEFAULT_CONTAINER_STYLES = {
   position: "relative"
@@ -17,6 +18,18 @@ const DEFAULT_SVG_STYLES = {
   width: "100%",
   height: "100%"
 };
+
+const getLiquidSource = async ({ svgSource, width, height }) => {
+  const { toHtml } = await import('hast-util-to-html');
+
+  const parsed = parse(svgSource);
+
+  parsed.children[0].properties.width = `{{ width | default: '${width}px' }}`;
+  parsed.children[0].properties.height = `{{ height | default: '${height}px' }}`;
+  parsed.children[0].properties.fill = `{{ color | default: 'currentcolor' }}`;
+
+  return toHtml(parsed, {allowDangerousCharacters: true});
+}
 
 const getReactSource = ({ componentName, svgSource, width, height }) => {
   const svgAsJsx = transform.sync(svgSource, {
@@ -82,8 +95,8 @@ const getIndexSource = ({ iconFiles }) =>
       .join("\n")}
   `;
 
-const packageIcons = ({ svgs, version }) => {
-  const iconFiles = svgs.map(svg => {
+const packageIcons = async ({ svgs, version }) => {
+  const iconFiles = await Promise.all(svgs.map(async svg => {
     const name = path.basename(svg.path).replace(".svg", "");
     const size = last(name.split("_"));
     const sizes = size.split("x");
@@ -101,19 +114,26 @@ const packageIcons = ({ svgs, version }) => {
     }
 
     const componentName = `${upperFirst(camelCase(name))}`;
-    const source = getReactSource({ componentName, svgSource: svg.source, width, height });
+    const reactSource = getReactSource({ componentName, svgSource: svg.source, width, height });
+    const liquidSource = await getLiquidSource({ svgSource: svg.source, width, height });
     const fileName = kebabCase(componentName);
 
-    return {
-      filepath: `${fileName}.tsx`,
-      source,
-      size,
-      width,
-      height,
-      componentName,
-      fileName
-    };
-  });
+    return [
+      {
+        filepath: `${fileName}.tsx`,
+        source: reactSource,
+        size,
+        width,
+        height,
+        componentName,
+        fileName
+      },
+      {
+        filepath: `icon-${fileName}.liquid`,
+        source: liquidSource
+      }
+    ];
+  }));
 
   return [
     {
@@ -122,9 +142,9 @@ const packageIcons = ({ svgs, version }) => {
     },
     {
       filepath: "index.ts",
-      source: getIndexSource({ iconFiles })
+      source: getIndexSource({ iconFiles: iconFiles.flat().filter(file => file.filepath.endsWith('.tsx')) })
     },
-    ...iconFiles
+    ...iconFiles.flat()
   ];
 };
 
