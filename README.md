@@ -2,7 +2,7 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/@moda/icons/latest.svg)](https://www.npmjs.com/package/@moda/icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/icons/main?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/icons)
 
-Been here before? Visit the [click-to-copy](https://moda-icons.netlify.com/) documentation. First time? Keep reading.
+Been here before? Visit the [click-to-copy](https://moda-icons.netlify.app/) documentation. First time? Keep reading.
 
 ## What is this?
 
@@ -19,7 +19,7 @@ This is a build pipeline for dealing with and packaging SVG icons into React com
 npm install --save @moda/icons
 ```
 
-Visit: [https://moda-icons.netlify.com](https://moda-icons.netlify.com/) and click the desired icon to copy its `import` statement.
+Visit: [https://moda-icons.netlify.app](https://moda-icons.netlify.app/) and click the desired icon to copy its `import` statement.
 
 ```tsx
 import ShoppingBagIcon from "@moda/icons/shopping-bag-24";
@@ -71,7 +71,7 @@ We are using [semantic release](https://github.com/semantic-release/semantic-rel
 
 ## Documentation
 
-A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://moda-icons.netlify.com/).
+A full listing of available icons, grouped by size, with a simple filtering interface [can be viewed here](https://moda-icons.netlify.app/).
 
 ### Previewing documentation
 
@@ -90,3 +90,7 @@ npm run local:restore
 ### Publishing documentation
 
 Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/icons#main`.
+
+-**Netlify deploy config** is located here: https://github.com/ModaOperandi/icons/blob/main/netlify.toml
+-**Netlify site overview**: https://app.netlify.com/sites/moda-icons/overview
+
