@@ -95,3 +95,5 @@ Documentation is rebuilt and republished whenever there is a merge to `ModaOpera
 
 -**Netlify site overview**: https://app.netlify.com/sites/moda-icons/overview
 
+(settings specified in netlify.toml override any corresponding settings in the Netlify UI)
+
