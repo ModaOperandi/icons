@@ -1,0 +1,20 @@
+[build]
+  base = "/"
+  publish = "example/build"
+  command = "npm run predeploy"
+
+[functions]
+  directory = "netlify/functions"
+
+[context.production]
+  publish = "example/build"
+  command = "npm run predeploy"
+
+[context.deploy-preview]
+  publish = "example/build"
+  command = "npm run predeploy"
+
+[dev]
+  command = "npm run local:preview"
+  port = 3000
+  publish = "dist"
