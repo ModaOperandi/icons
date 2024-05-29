@@ -92,5 +92,6 @@ npm run local:restore
 Documentation is rebuilt and republished whenever there is a merge to `ModaOperandi/icons#main`.
 
 -**Netlify deploy config** is located here: https://github.com/ModaOperandi/icons/blob/main/netlify.toml
+
 -**Netlify site overview**: https://app.netlify.com/sites/moda-icons/overview
 
