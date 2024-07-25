@@ -41,7 +41,7 @@
     "fs-extra": "^11.2.0",
     "glob": "^11.0.0",
     "hast-util-to-html": "^9.0.1",
-    "husky": "^9.1.1",
+    "husky": "^9.1.2",
     "pinst": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.3.1",
