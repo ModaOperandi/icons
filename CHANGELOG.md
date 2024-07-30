@@ -1,3 +1,10 @@
+# [5.26.0](https://github.com/ModaOperandi/icons/compare/5.25.17...5.26.0) (2024-07-30)
+
+
+### Features
+
+* **icons:** adds account-24 ([34ac61d](https://github.com/ModaOperandi/icons/commit/34ac61db622ec9b0ef23133afca889aff7684fbf))
+
 ## [5.25.17](https://github.com/ModaOperandi/icons/compare/5.25.16...5.25.17) (2024-07-29)
 
 ## [5.25.16](https://github.com/ModaOperandi/icons/compare/5.25.15...5.25.16) (2024-07-26)
