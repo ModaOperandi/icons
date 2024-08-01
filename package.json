@@ -20,7 +20,7 @@
     "optimize": "rm -rf build/svg && svgo src/svg -o build/svg --config=svgo.config.js",
     "postpublish": "pinst --enable",
     "predeploy": "npm run build && cd example && npm install && npm run build",
-    "prepare": "husky install && echo ''",
+    "prepare": "husky && echo ''",
     "prepublishOnly": "pinst --disable",
     "release": "npm run build && cd dist && npm publish",
     "semantic-release": "semantic-release",
