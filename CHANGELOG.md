@@ -1,3 +1,10 @@
+# [5.27.0](https://github.com/ModaOperandi/icons/compare/5.26.4...5.27.0) (2024-08-07)
+
+
+### Features
+
+* **social:** new twitter icon ([ad56fd8](https://github.com/ModaOperandi/icons/commit/ad56fd87394298e3d7474b4b4bc185b5e6482e7a))
+
 ## [5.26.4](https://github.com/ModaOperandi/icons/compare/5.26.3...5.26.4) (2024-08-07)
 
 ## [5.26.3](https://github.com/ModaOperandi/icons/compare/5.26.2...5.26.3) (2024-08-06)
