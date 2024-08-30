@@ -1,3 +1,5 @@
+## [5.27.7](https://github.com/ModaOperandi/icons/compare/5.27.6...5.27.7) (2024-08-30)
+
 ## [5.27.6](https://github.com/ModaOperandi/icons/compare/5.27.5...5.27.6) (2024-08-28)
 
 ## [5.27.5](https://github.com/ModaOperandi/icons/compare/5.27.4...5.27.5) (2024-08-28)
