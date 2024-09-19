@@ -2,11 +2,11 @@
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![](https://img.shields.io/npm/v/@moda/icons/latest.svg)](https://www.npmjs.com/package/@moda/icons) [![](https://img.shields.io/circleci/build/gh/ModaOperandi/icons/main?token=63a4075a70ca69f3b373b215bc952cd0620c2279)](https://circleci.com/gh/ModaOperandi/icons)
 
-Been here before? Visit the [click-to-copy](https://moda-om-icons.netlify.app/) documentation. First time? Keep reading.
+Been here before? Visit the [click-to-copy](https://moda-icons.netlify.app/) documentation. First time? Keep reading.
 
 ## What is this?
 
-This is a build pipeline for dealing with and packaging SVG icons into React components. It optimizes SVGs using SVGO, then publishes a package `@moda/icons` which exports each individual icon as a component. **By copying the import out of the [click-to-copy](https://moda-om-icons.netlify.app/) documentation you ensure you import only the icons you need.**
+This is a build pipeline for dealing with and packaging SVG icons into React components. It optimizes SVGs using SVGO, then publishes a package `@moda/icons` which exports each individual icon as a component. **By copying the import out of the [click-to-copy](https://moda-icons.netlify.app/) documentation you ensure you import only the icons you need.**
 
 ## Meta
 
@@ -19,7 +19,7 @@ This is a build pipeline for dealing with and packaging SVG icons into React com
 npm install --save @moda/icons
 ```
 
-Visit: [https://moda-om-icons.netlify.app/](https://moda-om-icons.netlify.app/) and click the desired icon to copy its `import` statement.
+Visit: [https://moda-icons.netlify.app/](https://moda-icons.netlify.app/) and click the desired icon to copy its `import` statement.
 
 ```tsx
 import ShoppingBagIcon from "@moda/icons/shopping-bag-24";
