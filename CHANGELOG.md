@@ -1,3 +1,10 @@
+# [5.28.0](https://github.com/ModaOperandi/icons/compare/5.27.7...5.28.0) (2024-09-26)
+
+
+### Features
+
+* **icons:** adds moda private ([2767f64](https://github.com/ModaOperandi/icons/commit/2767f64d23f3c00293b8a1265c4fbd36e7f5310e))
+
 ## [5.27.7](https://github.com/ModaOperandi/icons/compare/5.27.6...5.27.7) (2024-08-30)
 
 ## [5.27.6](https://github.com/ModaOperandi/icons/compare/5.27.5...5.27.6) (2024-08-28)
