@@ -1,3 +1,11 @@
+# [5.29.0](https://github.com/ModaOperandi/icons/compare/5.28.0...5.29.0) (2024-09-27)
+
+
+### Features
+
+* **icons:** delete old moda private ([f2880ac](https://github.com/ModaOperandi/icons/commit/f2880ac94e953dcca468f11e96192ad67238d83a))
+* **icons:** updated moda private ([243b134](https://github.com/ModaOperandi/icons/commit/243b134cd0a34b0fd3cce8871e2997469027f677))
+
 # [5.28.0](https://github.com/ModaOperandi/icons/compare/5.27.7...5.28.0) (2024-09-26)
 
 
