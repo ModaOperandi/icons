@@ -1,3 +1,5 @@
+## [5.29.20](https://github.com/ModaOperandi/icons/compare/5.29.19...5.29.20) (2025-01-03)
+
 ## [5.29.19](https://github.com/ModaOperandi/icons/compare/5.29.18...5.29.19) (2024-12-18)
 
 ## [5.29.18](https://github.com/ModaOperandi/icons/compare/5.29.17...5.29.18) (2024-12-16)
