@@ -1,3 +1,10 @@
+## [5.29.36](https://github.com/ModaOperandi/icons/compare/5.29.35...5.29.36) (2025-03-06)
+
+
+### Bug Fixes
+
+* example page broken ([#918](https://github.com/ModaOperandi/icons/issues/918)) ([9d706c6](https://github.com/ModaOperandi/icons/commit/9d706c613316ff74e2db975141ee203467d85d51))
+
 ## [5.29.35](https://github.com/ModaOperandi/icons/compare/5.29.34...5.29.35) (2025-02-28)
 
 ## [5.29.34](https://github.com/ModaOperandi/icons/compare/5.29.33...5.29.34) (2025-02-19)
