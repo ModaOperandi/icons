@@ -5,13 +5,13 @@
   "private": true,
   "dependencies": {
     "@moda/icons": "file:../dist",
-    "@moda/tokens": "^5.8.0",
+    "@moda/tokens": "^6.2.99",
     "lodash": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
-    "react-use": "^17.4.2",
-    "styled-components": "^6.1.6",
+    "react-use": "^17.6.0",
+    "styled-components": "^6.1.15",
     "styled-reset": "^4.5.2"
   },
   "scripts": {
