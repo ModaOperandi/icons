@@ -1,3 +1,10 @@
+# [5.30.0](https://github.com/ModaOperandi/icons/compare/5.29.44...5.30.0) (2025-04-14)
+
+
+### Features
+
+* **icons:** edit ([b138e2f](https://github.com/ModaOperandi/icons/commit/b138e2f645844395b27ea6a99fe141b66851a6d5))
+
 ## [5.29.44](https://github.com/ModaOperandi/icons/compare/5.29.43...5.29.44) (2025-04-11)
 
 ## [5.29.43](https://github.com/ModaOperandi/icons/compare/5.29.42...5.29.43) (2025-04-07)
