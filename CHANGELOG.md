@@ -1,3 +1,15 @@
+# [6.0.0](https://github.com/ModaOperandi/icons/compare/5.30.1...6.0.0) (2025-04-17)
+
+
+### Features
+
+* **react 19:** upgrades peer deps to require React 19 ([06ba95b](https://github.com/ModaOperandi/icons/commit/06ba95b3344483dc85cb9c7ffc10a5c7e666a3f5))
+
+
+### BREAKING CHANGES
+
+* **react 19:** This requires React 19 now.
+
 ## [5.30.1](https://github.com/ModaOperandi/icons/compare/5.30.0...5.30.1) (2025-04-15)
 
 # [5.30.0](https://github.com/ModaOperandi/icons/compare/5.29.44...5.30.0) (2025-04-14)
