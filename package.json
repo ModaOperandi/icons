@@ -28,7 +28,7 @@
     "tsc": "tsc"
   },
   "peerDependencies": {
-    "react": ">=16.2.0"
+    "react": ">=19.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
