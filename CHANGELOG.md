@@ -1,3 +1,10 @@
+# [6.1.0](https://github.com/ModaOperandi/icons/compare/6.0.2...6.1.0) (2025-05-08)
+
+
+### Features
+
+* upgrade to node 22.15.0 ([#932](https://github.com/ModaOperandi/icons/issues/932)) ([8b560dc](https://github.com/ModaOperandi/icons/commit/8b560dc281703b45aff56963a5181ce9968b7f98))
+
 ## [6.0.2](https://github.com/ModaOperandi/icons/compare/6.0.1...6.0.2) (2025-05-06)
 
 ## [6.0.1](https://github.com/ModaOperandi/icons/compare/6.0.0...6.0.1) (2025-04-23)
