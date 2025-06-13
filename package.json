@@ -39,7 +39,7 @@
     "@types/react": "^19.1.8",
     "cz-conventional-changelog": "^3.3.0",
     "fs-extra": "^11.3.0",
-    "glob": "^11.0.2",
+    "glob": "^11.0.3",
     "hast-util-to-html": "^9.0.5",
     "husky": "^9.1.7",
     "pinst": "^3.0.0",
