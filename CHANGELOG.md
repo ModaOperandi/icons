@@ -1,3 +1,5 @@
+## [6.1.18](https://github.com/ModaOperandi/icons/compare/6.1.17...6.1.18) (2025-08-05)
+
 ## [6.1.17](https://github.com/ModaOperandi/icons/compare/6.1.16...6.1.17) (2025-07-31)
 
 ## [6.1.16](https://github.com/ModaOperandi/icons/compare/6.1.15...6.1.16) (2025-07-29)
