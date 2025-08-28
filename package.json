@@ -44,7 +44,7 @@
     "husky": "^9.1.7",
     "pinst": "^3.0.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.0",
+    "react-dom": "^19.1.1",
     "semantic-release": "^24.2.7",
     "semantic-release-npm-github": "^5.0.0",
     "svgo": "^4.0.0",
