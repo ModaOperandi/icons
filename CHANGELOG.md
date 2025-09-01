@@ -1,3 +1,10 @@
+# [6.2.0](https://github.com/ModaOperandi/icons/compare/6.1.22...6.2.0) (2025-09-01)
+
+
+### Features
+
+* **ECOM-4581:** add duplicate icon ([d3d1751](https://github.com/ModaOperandi/icons/commit/d3d1751f29bdc32f7020da201503c6d71fba5bdb))
+
 ## [6.1.22](https://github.com/ModaOperandi/icons/compare/6.1.21...6.1.22) (2025-08-28)
 
 ## [6.1.21](https://github.com/ModaOperandi/icons/compare/6.1.20...6.1.21) (2025-08-27)
