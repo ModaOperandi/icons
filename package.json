@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@semantic-release/npm": "^13.0.0",
+    "@semantic-release/npm": "^13.1.1",
     "@svgr/core": "^8.1.0",
     "@svgr/plugin-jsx": "^8.1.0",
     "@types/react": "^19.2.2",
