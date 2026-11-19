@@ -45,7 +45,7 @@
     "pinst": "^3.0.0",
     "react": "^19.2.7",
     "react-dom": "^19.3.1",
-    "semantic-release": "^25.0.9",
+    "semantic-release": "^26.0.1",
     "semantic-release-npm-github": "^6.0.0",
     "svgo": "^4.1.0",
     "typescript": "^7.0.2",
